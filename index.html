@@ -1,0 +1,1030 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Labhyansh Solution — Financial Dashboard</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<style>
+  :root {
+    --bg-base: #0a0e1a;
+    --bg-surface: rgba(15, 23, 42, 0.65);
+    --bg-elevated: rgba(30, 41, 59, 0.5);
+    --glass-border: rgba(255, 255, 255, 0.08);
+    --glass-shine: rgba(255, 255, 255, 0.04);
+    --accent: #3b82f6;
+    --accent-soft: rgba(59, 130, 246, 0.15);
+    --green: #10b981;
+    --green-soft: rgba(16, 185, 129, 0.12);
+    --red: #ef4444;
+    --red-soft: rgba(239, 68, 68, 0.12);
+    --amber: #f59e0b;
+    --amber-soft: rgba(245, 158, 11, 0.12);
+    --purple: #8b5cf6;
+    --purple-soft: rgba(139, 92, 246, 0.12);
+    --text-primary: #f1f5f9;
+    --text-secondary: #94a3b8;
+    --text-muted: #64748b;
+    --radius: 16px;
+    --shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: var(--bg-base);
+    color: var(--text-primary);
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  body::before {
+    content: '';
+    position: fixed;
+    top: -300px;
+    right: -200px;
+    width: 800px;
+    height: 800px;
+    background: radial-gradient(circle, rgba(59,130,246,0.06) 0%, transparent 60%);
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  body::after {
+    content: '';
+    position: fixed;
+    bottom: -300px;
+    left: -200px;
+    width: 700px;
+    height: 700px;
+    background: radial-gradient(circle, rgba(139,92,246,0.05) 0%, transparent 60%);
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  /* ── GLASS CARD ─────────────────────────── */
+  .glass {
+    background: var(--bg-surface);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .glass::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent);
+    pointer-events: none;
+  }
+
+  /* ── HEADER ─────────────────────────────── */
+  .header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    padding: 16px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--glass-border);
+  }
+
+  .header-brand {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .header-logo {
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(135deg, var(--accent), var(--purple));
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 18px;
+    color: white;
+  }
+
+  .header-title {
+    font-size: 1.2em;
+    font-weight: 700;
+    color: var(--text-primary);
+  }
+
+  .header-sub {
+    font-size: 0.8em;
+    color: var(--text-muted);
+    font-weight: 400;
+  }
+
+  .header-meta {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+  }
+
+  .header-pill {
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 0.78em;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+  }
+
+  .pill-green { background: var(--green-soft); color: var(--green); }
+  .pill-blue { background: var(--accent-soft); color: var(--accent); }
+
+  /* ── LAYOUT ─────────────────────────────── */
+  .dashboard {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 24px 32px 60px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .section {
+    margin-bottom: 28px;
+  }
+
+  .section-title {
+    font-size: 0.78em;
+    font-weight: 700;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    margin-bottom: 14px;
+    padding-left: 4px;
+  }
+
+  /* ── KPI GRID ─────────────────────────────── */
+  .kpi-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 16px;
+  }
+
+  .kpi-card {
+    padding: 22px 20px;
+    transition: transform 0.25s ease, border-color 0.25s ease;
+    cursor: default;
+  }
+
+  .kpi-card:hover {
+    transform: translateY(-4px);
+    border-color: rgba(255,255,255,0.15);
+  }
+
+  .kpi-label {
+    font-size: 0.72em;
+    font-weight: 600;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    margin-bottom: 10px;
+  }
+
+  .kpi-value {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1.7em;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 6px;
+  }
+
+  .kpi-change {
+    font-size: 0.78em;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 3px 8px;
+    border-radius: 6px;
+  }
+
+  .change-up { background: var(--green-soft); color: var(--green); }
+  .change-down { background: var(--red-soft); color: var(--red); }
+  .change-neutral { background: var(--accent-soft); color: var(--accent); }
+
+  /* ── CHART GRID ─────────────────────────────── */
+  .chart-grid {
+    display: grid;
+    gap: 16px;
+  }
+
+  .grid-2 { grid-template-columns: 1fr 1fr; }
+  .grid-3 { grid-template-columns: 1fr 1fr 1fr; }
+  .grid-1-2 { grid-template-columns: 1fr 2fr; }
+  .grid-2-1 { grid-template-columns: 2fr 1fr; }
+
+  .chart-card {
+    padding: 24px;
+    min-height: 360px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .chart-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+  }
+
+  .chart-title {
+    font-size: 0.95em;
+    font-weight: 700;
+    color: var(--text-primary);
+  }
+
+  .chart-badge {
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 0.7em;
+    font-weight: 600;
+    background: var(--bg-elevated);
+    color: var(--text-secondary);
+    border: 1px solid var(--glass-border);
+  }
+
+  .chart-body {
+    flex: 1;
+    position: relative;
+    min-height: 280px;
+  }
+
+  /* ── TABLE ─────────────────────────────── */
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.88em;
+  }
+
+  .data-table thead th {
+    text-align: left;
+    padding: 10px 14px;
+    font-size: 0.75em;
+    font-weight: 700;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-bottom: 1px solid var(--glass-border);
+  }
+
+  .data-table tbody td {
+    padding: 10px 14px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+    color: var(--text-secondary);
+    transition: background 0.15s;
+  }
+
+  .data-table tbody tr:hover td {
+    background: rgba(59, 130, 246, 0.04);
+    color: var(--text-primary);
+  }
+
+  .data-table .mono {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.9em;
+  }
+
+  /* ── INSIGHTS PANEL ─────────────────────── */
+  .insight-list {
+    list-style: none;
+  }
+
+  .insight-item {
+    padding: 14px 16px;
+    margin-bottom: 8px;
+    border-radius: 12px;
+    background: var(--bg-elevated);
+    border: 1px solid var(--glass-border);
+    font-size: 0.88em;
+    line-height: 1.55;
+    color: var(--text-secondary);
+    transition: transform 0.2s, border-color 0.2s;
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+  }
+
+  .insight-item:hover {
+    transform: translateX(4px);
+    border-color: rgba(255,255,255,0.1);
+  }
+
+  .insight-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    margin-top: 6px;
+  }
+
+  .dot-green { background: var(--green); box-shadow: 0 0 8px rgba(16,185,129,0.4); }
+  .dot-amber { background: var(--amber); box-shadow: 0 0 8px rgba(245,158,11,0.4); }
+  .dot-red { background: var(--red); box-shadow: 0 0 8px rgba(239,68,68,0.4); }
+  .dot-blue { background: var(--accent); box-shadow: 0 0 8px rgba(59,130,246,0.4); }
+
+  /* ── FOOTER ─────────────────────────────── */
+  .footer {
+    text-align: center;
+    padding: 30px;
+    color: var(--text-muted);
+    font-size: 0.78em;
+    border-top: 1px solid var(--glass-border);
+    margin-top: 20px;
+  }
+
+  /* ── SCROLLBAR ────────────────────────── */
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 3px; }
+  ::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.2); }
+
+  /* ── TABS ────────────────────────── */
+  .tab-container {
+    display: flex;
+    gap: 4px;
+    background: var(--bg-elevated);
+    padding: 4px;
+    border-radius: 10px;
+    border: 1px solid var(--glass-border);
+  }
+
+  .tab-btn {
+    padding: 7px 16px;
+    border: none;
+    background: transparent;
+    color: var(--text-muted);
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8em;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .tab-btn:hover { color: var(--text-secondary); }
+  .tab-btn.active {
+    background: var(--accent-soft);
+    color: var(--accent);
+  }
+
+  .tab-panel { display: none; }
+  .tab-panel.active { display: block; }
+
+  /* ── RESPONSIVE ─────────────────────── */
+  @media (max-width: 1200px) {
+    .kpi-grid { grid-template-columns: repeat(3, 1fr); }
+    .grid-2, .grid-1-2, .grid-2-1 { grid-template-columns: 1fr; }
+  }
+
+  @media (max-width: 768px) {
+    .kpi-grid { grid-template-columns: repeat(2, 1fr); }
+    .header { flex-direction: column; gap: 12px; padding: 16px 20px; }
+    .dashboard { padding: 16px; }
+  }
+
+  /* ── ANIMATIONS ─────────────────────── */
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .animate { animation: fadeUp 0.5s ease forwards; opacity: 0; }
+  .delay-1 { animation-delay: 0.1s; }
+  .delay-2 { animation-delay: 0.2s; }
+  .delay-3 { animation-delay: 0.3s; }
+  .delay-4 { animation-delay: 0.4s; }
+  .delay-5 { animation-delay: 0.5s; }
+  .delay-6 { animation-delay: 0.6s; }
+</style>
+</head>
+<body>
+
+<!-- ═══ HEADER ═══ -->
+<header class="header glass">
+  <div class="header-brand">
+    <div class="header-logo">LS</div>
+    <div>
+      <div class="header-title">Labhyansh Solution</div>
+      <div class="header-sub">Financial Dashboard &middot; FY 2024-25</div>
+    </div>
+  </div>
+  <div class="header-meta">
+    <span class="header-pill pill-blue">Apr - Aug 2024</span>
+    <span class="header-pill pill-green">Profitable</span>
+    <span style="font-size: 0.8em; color: var(--text-muted);">Prepared by Aviral Dubey</span>
+  </div>
+</header>
+
+<main class="dashboard">
+
+  <!-- ═══ KPI SECTION ═══ -->
+  <section class="section">
+    <div class="section-title">Key Performance Indicators</div>
+    <div class="kpi-grid">
+      <div class="kpi-card glass animate delay-1">
+        <div class="kpi-label">Total Revenue</div>
+        <div class="kpi-value" style="color: var(--green);">6.78 Cr</div>
+        <span class="kpi-change change-up">+40.1% growth</span>
+      </div>
+      <div class="kpi-card glass animate delay-2">
+        <div class="kpi-label">Total Expenses</div>
+        <div class="kpi-value" style="color: var(--red);">6.11 Cr</div>
+        <span class="kpi-change change-neutral">90% of revenue</span>
+      </div>
+      <div class="kpi-card glass animate delay-3">
+        <div class="kpi-label">Net Profit</div>
+        <div class="kpi-value" style="color: var(--green);">67.77 L</div>
+        <span class="kpi-change change-up">10.0% margin</span>
+      </div>
+      <div class="kpi-card glass animate delay-4">
+        <div class="kpi-label">Net Assets</div>
+        <div class="kpi-value" style="color: var(--accent);">24.81 Cr</div>
+        <span class="kpi-change change-neutral">Balance Sheet</span>
+      </div>
+      <div class="kpi-card glass animate delay-5">
+        <div class="kpi-label">Cash & Bank</div>
+        <div class="kpi-value" style="color: var(--green);">4.51 Cr</div>
+        <span class="kpi-change change-up">Liquid reserves</span>
+      </div>
+      <div class="kpi-card glass animate delay-6">
+        <div class="kpi-label">Owner Equity</div>
+        <div class="kpi-value" style="color: var(--purple);">14.98 Cr</div>
+        <span class="kpi-change change-neutral">Capital invested</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ REVENUE vs EXPENSES TREND ═══ -->
+  <section class="section">
+    <div class="section-title">Performance Trends</div>
+    <div class="chart-grid grid-2-1">
+      <div class="chart-card glass animate delay-2">
+        <div class="chart-card-header">
+          <span class="chart-title">Revenue vs Expenses (Monthly)</span>
+          <div class="tab-container">
+            <button class="tab-btn active" onclick="setTrendType('bar')">Bar</button>
+            <button class="tab-btn" onclick="setTrendType('line')">Line</button>
+          </div>
+        </div>
+        <div class="chart-body">
+          <canvas id="trendChart"></canvas>
+        </div>
+      </div>
+      <div class="chart-card glass animate delay-3">
+        <div class="chart-card-header">
+          <span class="chart-title">Cumulative P&L</span>
+          <span class="chart-badge">Running Total</span>
+        </div>
+        <div class="chart-body">
+          <canvas id="cumulativeChart"></canvas>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ MONTHLY DETAIL TABLE ═══ -->
+  <section class="section">
+    <div class="section-title">Monthly Breakdown</div>
+    <div class="glass" style="padding: 20px; border-radius: var(--radius);">
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>Month</th>
+            <th>Revenue</th>
+            <th>Expenses</th>
+            <th>Net P&L</th>
+            <th>Margin</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>April 2024</strong></td>
+            <td class="mono" style="color:var(--green);">1.05 Cr</td>
+            <td class="mono" style="color:var(--red);">1.10 Cr</td>
+            <td class="mono" style="color:var(--red);">-5.06 L</td>
+            <td class="mono">-4.8%</td>
+            <td><span class="kpi-change change-down">Loss</span></td>
+          </tr>
+          <tr>
+            <td><strong>May 2024</strong></td>
+            <td class="mono" style="color:var(--green);">1.38 Cr</td>
+            <td class="mono" style="color:var(--red);">1.31 Cr</td>
+            <td class="mono" style="color:var(--green);">6.94 L</td>
+            <td class="mono">5.0%</td>
+            <td><span class="kpi-change change-up">Profit</span></td>
+          </tr>
+          <tr>
+            <td><strong>June 2024</strong></td>
+            <td class="mono" style="color:var(--green);">1.42 Cr</td>
+            <td class="mono" style="color:var(--red);">1.16 Cr</td>
+            <td class="mono" style="color:var(--green);">25.49 L</td>
+            <td class="mono">18.0%</td>
+            <td><span class="kpi-change change-up">Profit</span></td>
+          </tr>
+          <tr>
+            <td><strong>July 2024</strong></td>
+            <td class="mono" style="color:var(--green);">1.46 Cr</td>
+            <td class="mono" style="color:var(--red);">1.31 Cr</td>
+            <td class="mono" style="color:var(--green);">14.52 L</td>
+            <td class="mono">10.0%</td>
+            <td><span class="kpi-change change-up">Profit</span></td>
+          </tr>
+          <tr>
+            <td><strong>August 2024</strong></td>
+            <td class="mono" style="color:var(--green);">1.47 Cr</td>
+            <td class="mono" style="color:var(--red);">1.21 Cr</td>
+            <td class="mono" style="color:var(--green);">25.88 L</td>
+            <td class="mono">17.6%</td>
+            <td><span class="kpi-change change-up">Profit</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ═══ EXPENSE BREAKDOWN + CATEGORY PIE ═══ -->
+  <section class="section">
+    <div class="section-title">Expense & Category Analysis</div>
+    <div class="chart-grid grid-2">
+      <div class="chart-card glass animate delay-1">
+        <div class="chart-card-header">
+          <span class="chart-title">Expense Breakdown by Type</span>
+          <span class="chart-badge">Top 10</span>
+        </div>
+        <div class="chart-body">
+          <canvas id="expenseChart"></canvas>
+        </div>
+      </div>
+      <div class="chart-card glass animate delay-2">
+        <div class="chart-card-header">
+          <span class="chart-title">Category Distribution</span>
+          <div class="tab-container">
+            <button class="tab-btn active" onclick="setCatView('debit')">Debit</button>
+            <button class="tab-btn" onclick="setCatView('credit')">Credit</button>
+          </div>
+        </div>
+        <div class="chart-body">
+          <canvas id="categoryChart"></canvas>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ TOP ACCOUNTS ═══ -->
+  <section class="section">
+    <div class="section-title">Top Accounts Analysis</div>
+    <div class="chart-grid grid-2">
+      <div class="chart-card glass animate delay-1">
+        <div class="chart-card-header">
+          <span class="chart-title">Top 10 Accounts by Debit</span>
+          <span class="chart-badge">Outflows</span>
+        </div>
+        <div class="chart-body">
+          <canvas id="topDebitChart"></canvas>
+        </div>
+      </div>
+      <div class="chart-card glass animate delay-2">
+        <div class="chart-card-header">
+          <span class="chart-title">Top 10 Accounts by Credit</span>
+          <span class="chart-badge">Inflows</span>
+        </div>
+        <div class="chart-body">
+          <canvas id="topCreditChart"></canvas>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ EXPENSE TREND (STACKED) ═══ -->
+  <section class="section">
+    <div class="section-title">Expense Trend by Category</div>
+    <div class="chart-card glass animate delay-1">
+      <div class="chart-card-header">
+        <span class="chart-title">Monthly Expense Movement — Top 5 Categories</span>
+        <span class="chart-badge">Stacked</span>
+      </div>
+      <div class="chart-body" style="min-height: 320px;">
+        <canvas id="expTrendChart"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ INSIGHTS & RISKS ═══ -->
+  <section class="section">
+    <div class="section-title">Key Insights & Risk Assessment</div>
+    <div class="chart-grid grid-2">
+      <div class="glass" style="padding: 24px;">
+        <h3 style="font-size: 0.95em; font-weight: 700; margin-bottom: 16px; color: var(--green);">Strengths</h3>
+        <ul class="insight-list">
+          <li class="insight-item">
+            <span class="insight-dot dot-green"></span>
+            <span><strong>Profitable business</strong> — Net profit of 67.77 L with 10.0% margin over 5 months</span>
+          </li>
+          <li class="insight-item">
+            <span class="insight-dot dot-green"></span>
+            <span><strong>Revenue growing +40.1%</strong> — Consistent upward trend from April to August</span>
+          </li>
+          <li class="insight-item">
+            <span class="insight-dot dot-green"></span>
+            <span><strong>Strong cash position</strong> — 4.51 Cr in cash and bank reserves</span>
+          </li>
+          <li class="insight-item">
+            <span class="insight-dot dot-green"></span>
+            <span><strong>Solid asset base</strong> — 24.81 Cr in net assets supporting long-term growth</span>
+          </li>
+          <li class="insight-item">
+            <span class="insight-dot dot-blue"></span>
+            <span><strong>Recovering trajectory</strong> — Only April was a loss month; 4 consecutive profitable months</span>
+          </li>
+        </ul>
+      </div>
+      <div class="glass" style="padding: 24px;">
+        <h3 style="font-size: 0.95em; font-weight: 700; margin-bottom: 16px; color: var(--amber);">Risks & Recommendations</h3>
+        <ul class="insight-list">
+          <li class="insight-item">
+            <span class="insight-dot dot-amber"></span>
+            <span><strong>Thin margin (10%)</strong> — Vulnerable to cost increases. Negotiate better purchase rates.</span>
+          </li>
+          <li class="insight-item">
+            <span class="insight-dot dot-red"></span>
+            <span><strong>Revenue concentration</strong> — Only 5 accounts = 80% of credit inflows. Diversify customer base.</span>
+          </li>
+          <li class="insight-item">
+            <span class="insight-dot dot-amber"></span>
+            <span><strong>Purchases = 49% of costs</strong> — Explore bulk deals, alternate suppliers for 2-3% savings.</span>
+          </li>
+          <li class="insight-item">
+            <span class="insight-dot dot-amber"></span>
+            <span><strong>Asset-heavy structure</strong> — High depreciation and maintenance overhead to manage.</span>
+          </li>
+          <li class="insight-item">
+            <span class="insight-dot dot-blue"></span>
+            <span><strong>Build reserves</strong> — Maintain 2-3 months of operating expenses as a safety buffer.</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  Labhyansh Solution &middot; Financial Dashboard &middot; FY 2024-25 (Q1 & Q2) &middot; Prepared by Aviral Dubey
+</footer>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!-- CHART.JS SCRIPTS -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<script>
+Chart.defaults.color = '#94a3b8';
+Chart.defaults.borderColor = 'rgba(255,255,255,0.05)';
+Chart.defaults.font.family = "'Inter', sans-serif";
+Chart.defaults.font.size = 12;
+Chart.defaults.plugins.legend.labels.usePointStyle = true;
+Chart.defaults.plugins.legend.labels.pointStyleWidth = 10;
+Chart.defaults.plugins.tooltip.backgroundColor = 'rgba(15, 23, 42, 0.95)';
+Chart.defaults.plugins.tooltip.borderColor = 'rgba(59, 130, 246, 0.2)';
+Chart.defaults.plugins.tooltip.borderWidth = 1;
+Chart.defaults.plugins.tooltip.cornerRadius = 8;
+Chart.defaults.plugins.tooltip.padding = 12;
+Chart.defaults.plugins.tooltip.titleFont = { weight: '600' };
+
+const months = ["Apr", "May", "Jun", "Jul", "Aug"];
+const revenueData = [10518281.14, 13834280.66, 14160070.5, 14580549.38, 14734913.64];
+const expenseData = [11023812.16, 13140551.46, 11611010.06, 13128650.0, 12147021.84];
+const netData = [-505531.02, 693729.2, 2549060.44, 1451899.38, 2587891.8];
+const cumData = [-505531.02, 188198.18, 2737258.62, 4189158.0, 6777049.8];
+
+function formatINR(val) {
+  if (Math.abs(val) >= 10000000) return (val/10000000).toFixed(2) + ' Cr';
+  if (Math.abs(val) >= 100000) return (val/100000).toFixed(2) + ' L';
+  return val.toLocaleString('en-IN');
+}
+
+// ── 1. TREND CHART ─────────────────────────
+let trendChart;
+function createTrendChart(type) {
+  if (trendChart) trendChart.destroy();
+  const ctx = document.getElementById('trendChart').getContext('2d');
+  trendChart = new Chart(ctx, {
+    type: type,
+    data: {
+      labels: months,
+      datasets: [
+        {
+          label: 'Revenue',
+          data: revenueData,
+          backgroundColor: type === 'bar' ? 'rgba(16,185,129,0.7)' : 'rgba(16,185,129,0.1)',
+          borderColor: '#10b981',
+          borderWidth: 2,
+          borderRadius: type === 'bar' ? 6 : 0,
+          fill: type === 'line',
+          tension: 0.4,
+          pointRadius: type === 'line' ? 5 : 0,
+          pointHoverRadius: 7,
+        },
+        {
+          label: 'Expenses',
+          data: expenseData,
+          backgroundColor: type === 'bar' ? 'rgba(239,68,68,0.7)' : 'rgba(239,68,68,0.1)',
+          borderColor: '#ef4444',
+          borderWidth: 2,
+          borderRadius: type === 'bar' ? 6 : 0,
+          fill: type === 'line',
+          tension: 0.4,
+          pointRadius: type === 'line' ? 5 : 0,
+          pointHoverRadius: 7,
+        },
+        {
+          label: 'Net P&L',
+          data: netData,
+          backgroundColor: type === 'bar' ? 'rgba(59,130,246,0.7)' : 'rgba(59,130,246,0.1)',
+          borderColor: '#3b82f6',
+          borderWidth: 2,
+          borderRadius: type === 'bar' ? 6 : 0,
+          fill: type === 'line',
+          tension: 0.4,
+          pointRadius: type === 'line' ? 5 : 0,
+          pointHoverRadius: 7,
+        }
+      ]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      interaction: { mode: 'index', intersect: false },
+      plugins: {
+        tooltip: {
+          callbacks: { label: (ctx) => ctx.dataset.label + ': Rs. ' + formatINR(ctx.parsed.y) }
+        }
+      },
+      scales: {
+        y: {
+          ticks: { callback: (v) => formatINR(v) },
+          grid: { color: 'rgba(255,255,255,0.04)' }
+        },
+        x: { grid: { display: false } }
+      }
+    }
+  });
+}
+
+function setTrendType(type) {
+  document.querySelectorAll('.tab-container')[0].querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  event.target.classList.add('active');
+  createTrendChart(type);
+}
+
+createTrendChart('bar');
+
+// ── 2. CUMULATIVE CHART ─────────────────────────
+const cumCtx = document.getElementById('cumulativeChart').getContext('2d');
+new Chart(cumCtx, {
+  type: 'line',
+  data: {
+    labels: months,
+    datasets: [{
+      label: 'Cumulative Net P&L',
+      data: cumData,
+      borderColor: '#f59e0b',
+      backgroundColor: 'rgba(245,158,11,0.1)',
+      borderWidth: 3,
+      fill: true,
+      tension: 0.4,
+      pointRadius: 6,
+      pointHoverRadius: 9,
+      pointBackgroundColor: '#f59e0b',
+      pointBorderColor: '#0a0e1a',
+      pointBorderWidth: 3,
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: { display: false },
+      tooltip: {
+        callbacks: { label: (ctx) => 'Cumulative: Rs. ' + formatINR(ctx.parsed.y) }
+      }
+    },
+    scales: {
+      y: {
+        ticks: { callback: (v) => formatINR(v) },
+        grid: { color: 'rgba(255,255,255,0.04)' }
+      },
+      x: { grid: { display: false } }
+    }
+  }
+});
+
+// ── 3. EXPENSE BREAKDOWN ─────────────────────────
+const expCtx = document.getElementById('expenseChart').getContext('2d');
+new Chart(expCtx, {
+  type: 'bar',
+  data: {
+    labels: ["Purchases", "Direct Expenses", "Indirect Expenses", "Employee Expenses", "Rent", "Repairs & Maintenance", "Purchases - Discount", "Admin & Professional", "Other Expenses", "Vehicle & Travel"],
+    datasets: [{
+      data: [30194798.51, 17310718.8, 5574570.57, 4805463.0, 1553029.75, 1121241.8, 260047.89, 148509.44, 124686.99, 107517.8],
+      backgroundColor: [
+        'rgba(239,68,68,0.8)', 'rgba(239,68,68,0.65)', 'rgba(239,68,68,0.5)',
+        'rgba(245,158,11,0.7)', 'rgba(245,158,11,0.55)', 'rgba(245,158,11,0.4)',
+        'rgba(139,92,246,0.7)', 'rgba(139,92,246,0.55)', 'rgba(139,92,246,0.4)',
+        'rgba(59,130,246,0.6)'
+      ],
+      borderRadius: 6,
+      borderSkipped: false,
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    indexAxis: 'y',
+    plugins: {
+      legend: { display: false },
+      tooltip: {
+        callbacks: { label: (ctx) => 'Rs. ' + formatINR(ctx.parsed.x) }
+      }
+    },
+    scales: {
+      x: {
+        ticks: { callback: (v) => formatINR(v) },
+        grid: { color: 'rgba(255,255,255,0.04)' }
+      },
+      y: {
+        grid: { display: false },
+        ticks: { font: { size: 11 } }
+      }
+    }
+  }
+});
+
+// ── 4. CATEGORY PIE ─────────────────────────
+let categoryChart;
+const catLabels = ["Equity", "Liabilities", "Assets", "Revenue", "Expenses"];
+const catDebVals = [0.0, 19139592.58, 250059230.64, 2500.0, 61315605.34];
+const catCredVals = [149802350.12, 68205476.36, 1990209.38, 67830595.32, 264559.82];
+const catColors = ['rgba(59,130,246,0.8)', 'rgba(239,68,68,0.8)', 'rgba(139,92,246,0.8)', 'rgba(16,185,129,0.8)', 'rgba(245,158,11,0.8)'];
+
+function createCatChart(view) {
+  if (categoryChart) categoryChart.destroy();
+  const ctx = document.getElementById('categoryChart').getContext('2d');
+  categoryChart = new Chart(ctx, {
+    type: 'doughnut',
+    data: {
+      labels: catLabels,
+      datasets: [{
+        data: view === 'debit' ? catDebVals : catCredVals,
+        backgroundColor: catColors,
+        borderColor: '#0a0e1a',
+        borderWidth: 3,
+        hoverOffset: 8,
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      cutout: '55%',
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: { padding: 16, font: { size: 11 } }
+        },
+        tooltip: {
+          callbacks: { label: (ctx) => ctx.label + ': Rs. ' + formatINR(ctx.parsed) }
+        }
+      }
+    }
+  });
+}
+
+function setCatView(view) {
+  document.querySelectorAll('.tab-container')[1].querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  event.target.classList.add('active');
+  createCatChart(view);
+}
+
+createCatChart('debit');
+
+// ── 5. TOP DEBIT ─────────────────────────
+const tdCtx = document.getElementById('topDebitChart').getContext('2d');
+new Chart(tdCtx, {
+  type: 'bar',
+  data: {
+    labels: ["Current Assets", "Sundry Debtors", "ADVANCE TAX", "Fixed Assets", "Bank Accounts", "HDFC BANK", "MACHINERY IGST 18%", "Purchase Accounts", "PURCHASE IGST 5%", "Expenses (Direct) (Direct Expe"],
+    datasets: [{
+      data: [89126918.55, 30958286.23, 23894750.0, 22514484.5, 22478549.92, 22478549.92, 15468491.5, 15227423.2, 12658843.6, 8655359.4],
+      backgroundColor: 'rgba(59,130,246,0.7)',
+      borderRadius: 6,
+      borderSkipped: false,
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    indexAxis: 'y',
+    plugins: {
+      legend: { display: false },
+      tooltip: { callbacks: { label: (ctx) => 'Rs. ' + formatINR(ctx.parsed.x) } }
+    },
+    scales: {
+      x: { ticks: { callback: (v) => formatINR(v) }, grid: { color: 'rgba(255,255,255,0.04)' } },
+      y: { grid: { display: false }, ticks: { font: { size: 10 } } }
+    }
+  }
+});
+
+// ── 6. TOP CREDIT ─────────────────────────
+const tcCtx = document.getElementById('topCreditChart').getContext('2d');
+new Chart(tcCtx, {
+  type: 'bar',
+  data: {
+    labels: ["Capital Account", "MEHTA CAPITAL ACCOUNT", "Sales Accounts", "Un Exempt Sales A/c", "Current Liabilities", "Sundry Creditors", "MY FACTORY (DELHI)`2", "Provisions", "MANUFACTURING EXPENSES PAYABLE", "PROVISION FOR EXPENSES"],
+    datasets: [{
+      data: [74901175.06, 64924115.06, 33740842.16, 33740842.16, 27502112.94, 18091146.9, 9972680.0, 7535746.0, 2598900.0, 2359692.0],
+      backgroundColor: 'rgba(16,185,129,0.7)',
+      borderRadius: 6,
+      borderSkipped: false,
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    indexAxis: 'y',
+    plugins: {
+      legend: { display: false },
+      tooltip: { callbacks: { label: (ctx) => 'Rs. ' + formatINR(ctx.parsed.x) } }
+    },
+    scales: {
+      x: { ticks: { callback: (v) => formatINR(v) }, grid: { color: 'rgba(255,255,255,0.04)' } },
+      y: { grid: { display: false }, ticks: { font: { size: 10 } } }
+    }
+  }
+});
+
+// ── 7. EXPENSE TREND (STACKED) ─────────────
+const etCtx = document.getElementById('expTrendChart').getContext('2d');
+new Chart(etCtx, {
+  type: 'bar',
+  data: {
+    labels: months,
+    datasets: [{"label": "Purchases", "data": [4885875.89, 7071034.68, 5606809.22, 6842999.96, 5788078.76], "backgroundColor": "rgba(59,130,246,0.8)", "borderRadius": 4}, {"label": "Direct Expenses", "data": [3100698.5, 3527702.0, 3370360.0, 3726314.58, 3585643.72], "backgroundColor": "rgba(239,68,68,0.8)", "borderRadius": 4}, {"label": "Indirect Expenses", "data": [1171651.44, 1053578.39, 1101648.54, 1079147.29, 1168544.91], "backgroundColor": "rgba(16,185,129,0.8)", "borderRadius": 4}, {"label": "Employee Expenses", "data": [977220.0, 988208.0, 957128.0, 912397.0, 970510.0], "backgroundColor": "rgba(245,158,11,0.8)", "borderRadius": 4}, {"label": "Rent", "data": [294692.0, 294692.0, 321215.25, 321215.25, 321215.25], "backgroundColor": "rgba(139,92,246,0.8)", "borderRadius": 4}]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    interaction: { mode: 'index', intersect: false },
+    plugins: {
+      legend: {
+        position: 'top',
+        labels: { padding: 16, font: { size: 11 }, usePointStyle: true }
+      },
+      tooltip: {
+        callbacks: { label: (ctx) => ctx.dataset.label + ': Rs. ' + formatINR(ctx.parsed.y) }
+      }
+    },
+    scales: {
+      x: { stacked: true, grid: { display: false } },
+      y: { stacked: true, ticks: { callback: (v) => formatINR(v) }, grid: { color: 'rgba(255,255,255,0.04)' } }
+    }
+  }
+});
+
+// ── INTERSECTION OBSERVER (animate on scroll) ─────────────
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.style.animationPlayState = 'running';
+    }
+  });
+}, { threshold: 0.1 });
+
+document.querySelectorAll('.animate').forEach(el => {
+  el.style.animationPlayState = 'paused';
+  observer.observe(el);
+});
+
+</script>
+</body>
+</html>
