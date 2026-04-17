@@ -322,7 +322,7 @@ html = f'''<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Labhyansh Solution — Financial Dashboard</title>
+<title>Labhyansh Solution | Financial Dashboard</title>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
 <style>
@@ -745,11 +745,11 @@ html = f'''<!DOCTYPE html>
     <div class="header-logo">LS</div>
     <div>
       <div class="header-title">Labhyansh Solution</div>
-      <div class="header-sub">Financial Dashboard &middot; FY 2024-25</div>
+      <div class="header-sub">Financial Dashboard <span style="opacity:0.3">/</span> FY 2024-25</div>
     </div>
   </div>
   <div class="header-meta">
-    <span class="header-pill pill-blue">Apr - Aug 2024</span>
+    <span class="header-pill pill-blue">Apr to Aug 2024</span>
     <span class="header-pill pill-green">{"Profitable" if net_profit > 0 else "Loss"}</span>
     <span style="font-size: 0.8em; color: var(--text-muted);">Prepared by Aviral Dubey</span>
   </div>
@@ -938,23 +938,23 @@ html += f'''
         <ul class="insight-list">
           <li class="insight-item">
             <span class="insight-dot dot-green"></span>
-            <span><strong>Profitable business</strong> — Net profit of {fmt(net_profit)} with {margin}% margin over 5 months</span>
+            <span><strong>Profitable business</strong> <span style="opacity:0.3">&vert;</span> Net profit of {fmt(net_profit)} with {margin}% margin over 5 months</span>
           </li>
           <li class="insight-item">
             <span class="insight-dot dot-green"></span>
-            <span><strong>Revenue growing +{rev_growth}%</strong> — Consistent upward trend from April to August</span>
+            <span><strong>Revenue growing +{rev_growth}%</strong> <span style="opacity:0.3">&vert;</span> Consistent upward trend from April to August</span>
           </li>
           <li class="insight-item">
             <span class="insight-dot dot-green"></span>
-            <span><strong>Strong cash position</strong> — {fmt(cash_bank)} in cash and bank reserves</span>
+            <span><strong>Strong cash position</strong> <span style="opacity:0.3">&vert;</span> {fmt(cash_bank)} in cash and bank reserves</span>
           </li>
           <li class="insight-item">
             <span class="insight-dot dot-green"></span>
-            <span><strong>Solid asset base</strong> — {fmt(net_assets)} in net assets supporting long-term growth</span>
+            <span><strong>Solid asset base</strong> <span style="opacity:0.3">&vert;</span> {fmt(net_assets)} in net assets supporting long-term growth</span>
           </li>
           <li class="insight-item">
             <span class="insight-dot dot-blue"></span>
-            <span><strong>Recovering trajectory</strong> — Only April was a loss month; 4 consecutive profitable months</span>
+            <span><strong>Recovering trajectory</strong> <span style="opacity:0.3">&vert;</span> Only April was a loss month; 4 consecutive profitable months</span>
           </li>
         </ul>
       </div>
@@ -963,23 +963,23 @@ html += f'''
         <ul class="insight-list">
           <li class="insight-item">
             <span class="insight-dot dot-amber"></span>
-            <span><strong>Thin margin (10%)</strong> — Vulnerable to cost increases. Negotiate better purchase rates.</span>
+            <span><strong>Thin margin (10%)</strong> <span style="opacity:0.3">&vert;</span> Vulnerable to cost increases. Negotiate better purchase rates.</span>
           </li>
           <li class="insight-item">
             <span class="insight-dot dot-red"></span>
-            <span><strong>Revenue concentration</strong> — Only 5 accounts = 80% of credit inflows. Diversify customer base.</span>
+            <span><strong>Revenue concentration</strong> <span style="opacity:0.3">&vert;</span> Only 5 accounts = 80% of credit inflows. Diversify customer base.</span>
           </li>
           <li class="insight-item">
             <span class="insight-dot dot-amber"></span>
-            <span><strong>Purchases = 49% of costs</strong> — Explore bulk deals, alternate suppliers for 2-3% savings.</span>
+            <span><strong>Purchases = 49% of costs</strong> <span style="opacity:0.3">&vert;</span> Explore bulk deals, alternate suppliers for 2-3% savings.</span>
           </li>
           <li class="insight-item">
             <span class="insight-dot dot-amber"></span>
-            <span><strong>Asset-heavy structure</strong> — High depreciation and maintenance overhead to manage.</span>
+            <span><strong>Asset heavy structure</strong> <span style="opacity:0.3">&vert;</span> High depreciation and maintenance overhead to manage.</span>
           </li>
           <li class="insight-item">
             <span class="insight-dot dot-blue"></span>
-            <span><strong>Build reserves</strong> — Maintain 2-3 months of operating expenses as a safety buffer.</span>
+            <span><strong>Build reserves</strong> <span style="opacity:0.3">&vert;</span> Maintain 2 to 3 months of operating expenses as a safety buffer.</span>
           </li>
         </ul>
       </div>

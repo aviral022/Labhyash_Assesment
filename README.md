@@ -1,99 +1,123 @@
-# Labhyansh Solution — Financial Business Report
+<div align="center">
 
-## Overview
+# Labhyansh Solution
 
-A comprehensive financial analysis and interactive dashboard built from a **Trial Balance** dataset (April 2024 - August 2024). This project transforms raw accounting data into actionable business insights through data cleaning, financial modeling, and professional visualizations.
+### Financial Business Report & Interactive Dashboard
 
-**Live Dashboard:** [View Interactive Dashboard](https://aviral022.github.io/Labhyash_Assesment/)
+[![Live Dashboard](https://img.shields.io/badge/Live_Dashboard-View_Now-2ea44f?style=for-the-badge&logo=googlechrome&logoColor=white)](https://aviral022.github.io/Labhyash_Assesment/)
+[![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
+[![Chart.js](https://img.shields.io/badge/Chart.js-4.4-FF6384?style=flat-square&logo=chartdotjs&logoColor=white)](https://chartjs.org)
+[![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](LICENSE)
 
----
+A comprehensive financial analysis built from a **Trial Balance** dataset covering **April to August 2024 (FY 2024-25)**. Raw accounting data is transformed into actionable business insights through data cleaning, financial modeling, and interactive visualizations.
 
-## Key Findings
-
-| Metric | Value |
-|--------|-------|
-| Total Revenue (5 months) | Rs. 6.78 Cr |
-| Total Expenses | Rs. 6.11 Cr |
-| Net Profit | Rs. 67.77 L |
-| Profit Margin | 10.0% |
-| Revenue Growth | +40% (Apr to Aug) |
-| Net Assets | Rs. 24.81 Cr |
+</div>
 
 ---
 
-## Project Structure
+## Live Preview
 
-```
-├── index.html                          # Interactive Dashboard (GitHub Pages)
-├── Dummy Data for Review.xlsx          # Source data (Trial Balance)
-├── generate_report.py                  # Data analysis & chart generation
-├── create_dashboard.py                 # Interactive dashboard generator
-├── create_presentation.py              # Slide presentation generator
-└── report_output/
-    ├── Financial_Dashboard.html        # Dashboard (copy of index.html)
-    ├── Financial_Report_Presentation.html  # 16-slide presentation
-    ├── Financial_Business_Report.md    # Full written report
-    ├── 01_kpi_summary.png             # KPI summary table
-    ├── 02_top_debit_accounts.png      # Top debit accounts chart
-    ├── 03_top_credit_accounts.png     # Top credit accounts chart
-    ├── 04_monthly_trend.png           # Revenue vs Expenses trend
-    ├── 05_category_pie.png            # Category distribution
-    ├── 06_expense_breakdown.png       # Expense breakdown
-    ├── 07_monthly_stacked.png         # Monthly stacked + cumulative
-    └── 08_concentration_pareto.png    # Concentration analysis
-```
+> **[aviral022.github.io/Labhyash_Assesment](https://aviral022.github.io/Labhyash_Assesment/)**
+
+The interactive dashboard features glassmorphism design, hover-enabled Chart.js charts, tab switching between Bar/Line views, scroll animations, and full responsiveness.
+
+---
+
+## Highlights at a Glance
+
+| Metric | Value | Status |
+|:-------|------:|:------:|
+| Total Revenue (5 months) | Rs. 6.78 Cr | |
+| Total Expenses | Rs. 6.11 Cr | |
+| **Net Profit** | **Rs. 67.77 L** | Profitable |
+| Profit Margin | 10.0% | Moderate |
+| Revenue Growth (Apr to Aug) | +40% | Growing |
+| Net Assets | Rs. 24.81 Cr | Strong |
+| Cash & Bank Reserves | Rs. 4.51 Cr | Healthy |
 
 ---
 
 ## What's Included
 
 ### 1. Interactive Dashboard (`index.html`)
-- Glassmorphism dark-themed UI
-- 7 interactive charts (Chart.js) — hover for details, switch between Bar/Line views
-- KPI cards, monthly breakdown table, insights panel
-- Fully responsive, works on all screen sizes
+Glassmorphism dark theme with 7 interactive Chart.js visualizations. Hover over any data point for details, switch between Bar and Line views, and explore expense breakdowns, category distributions, and monthly trends. KPI cards, monthly breakdown table, and an insights + risks panel all in one scrollable page.
 
 ### 2. Slide Presentation (`report_output/Financial_Report_Presentation.html`)
-- 16-slide presentation with keyboard navigation
-- Professional dark theme with smooth transitions
-- All charts embedded — single file, no dependencies
+16 slide presentation with keyboard navigation (arrow keys). Professional dark theme with smooth transitions and all 8 charts embedded. Single HTML file, fully self contained, shareable directly.
 
-### 3. Written Report (`report_output/Financial_Business_Report.md`)
-- 12-section comprehensive business report
-- Data cleaning, KPI summary, category analysis, monthly trends
-- 7 business insights and 5 actionable recommendations
+### 3. Full Written Report (`report_output/Financial_Business_Report.md`)
+12 section comprehensive business report covering data cleaning, KPI summary, category analysis, top accounts, monthly trends, concentration analysis, 7 business insights, and 5 actionable recommendations. Written in plain business language.
+
+### 4. Static Charts (8 PNG files in `report_output/`)
+High resolution charts for use in PowerPoint, Word, or any document: KPI table, top debit/credit accounts, monthly trend, category pies, expense breakdown, stacked bar with cumulative P&L, and Pareto concentration chart.
 
 ---
 
 ## Analysis Performed
 
-1. **Data Cleaning** — Removed blanks, summary rows; standardized formats
-2. **Feature Engineering** — Net Balance, Account Classification (Assets/Liabilities/Equity/Revenue/Expenses)
-3. **Financial Summary** — Revenue, Expenses, Profit, Margin calculations
-4. **Category Analysis** — Debit/Credit distribution by financial category
-5. **Top Account Analysis** — Highest debit and credit accounts
-6. **Monthly Trends** — Revenue growth, expense tracking, cumulative P&L
-7. **Concentration Analysis** — Pareto/80-20 risk assessment
-8. **Business Insights** — Cash flow, revenue dependency, cost structure
+| # | Analysis | Description |
+|---|----------|-------------|
+| 1 | **Data Cleaning** | Removed blanks, summary rows; standardized formats |
+| 2 | **Feature Engineering** | Net Balance, Account Classification (Assets / Liabilities / Equity / Revenue / Expenses) |
+| 3 | **Financial Summary** | Revenue, Expenses, Profit, Margin calculations |
+| 4 | **Category Analysis** | Debit / Credit distribution by financial category |
+| 5 | **Top Account Analysis** | Highest debit and credit accounts with business meaning |
+| 6 | **Monthly Trends** | Revenue growth, expense tracking, cumulative P&L |
+| 7 | **Concentration Analysis** | Pareto 80/20 risk assessment |
+| 8 | **Business Insights** | Cash flow, revenue dependency, cost structure, recommendations |
+
+---
+
+## Project Structure
+
+```
+Labhyansh Solution/
+  index.html                              Interactive Dashboard (GitHub Pages)
+  Dummy Data for Review.xlsx              Source data (Trial Balance)
+  generate_report.py                      Data analysis & chart generation
+  create_dashboard.py                     Interactive dashboard generator
+  create_presentation.py                  Slide presentation generator
+  README.md                              This file
+  report_output/
+    Financial_Dashboard.html              Dashboard (copy of index.html)
+    Financial_Report_Presentation.html    16 slide presentation
+    Financial_Business_Report.md          Full written report
+    01_kpi_summary.png                    KPI summary table
+    02_top_debit_accounts.png             Top debit accounts chart
+    03_top_credit_accounts.png            Top credit accounts chart
+    04_monthly_trend.png                  Revenue vs Expenses trend
+    05_category_pie.png                   Category distribution
+    06_expense_breakdown.png              Expense breakdown
+    07_monthly_stacked.png                Monthly stacked + cumulative
+    08_concentration_pareto.png           Concentration analysis
+```
 
 ---
 
 ## Tech Stack
 
-- **Python** — Data extraction and analysis (openpyxl, matplotlib)
-- **Chart.js** — Interactive browser-based charts
-- **HTML/CSS/JS** — Glassmorphism dashboard, no framework dependencies
-- **GitHub Pages** — Hosting
+| Layer | Technology | Purpose |
+|-------|-----------|---------|
+| Data Processing | Python, openpyxl | Extract and clean Trial Balance data |
+| Static Charts | matplotlib | Generate high resolution PNG charts |
+| Interactive Charts | Chart.js 4.4 | Hover enabled, togglable browser charts |
+| Frontend | HTML5, CSS3, JavaScript | Glassmorphism UI, scroll animations |
+| Typography | Inter, JetBrains Mono | Modern readable fonts via Google Fonts |
+| Hosting | GitHub Pages | Free, fast, reliable static hosting |
 
 ---
 
-## How to Run Locally
+## Run Locally
 
 ```bash
+# Clone the repository
+git clone https://github.com/aviral022/Labhyash_Assesment.git
+cd Labhyash_Assesment
+
 # Install dependencies
 pip install openpyxl matplotlib
 
-# Generate report and charts
+# Generate report and static charts
 python generate_report.py
 
 # Generate interactive dashboard
@@ -102,9 +126,19 @@ python create_dashboard.py
 # Generate slide presentation
 python create_presentation.py
 
-# Open dashboard
+# Open dashboard in browser
 start report_output/Financial_Dashboard.html
 ```
+
+---
+
+## Key Business Recommendations
+
+1. **Negotiate Better Purchase Rates** : Purchases are the single largest expense at Rs. 3.02 Cr. A 2 to 3% reduction adds Rs. 6 to 9L to profit.
+2. **Diversify Revenue Sources** : Only 5 accounts contribute 80% of all inflows. Customer concentration is a major risk.
+3. **Review Workforce Efficiency** : Conduct a productivity audit and consider automation for repetitive tasks.
+4. **Build Cash Reserves** : Maintain 2 to 3 months of operating expenses as a safety buffer.
+5. **Monthly Financial Reviews** : Use dashboards and trend analysis to catch issues early.
 
 ---
 
@@ -114,4 +148,6 @@ start report_output/Financial_Dashboard.html
 
 ---
 
-*Data integrity notice: No actual financial values were altered during analysis. Only structural cleaning (removing blanks, summary rows) was performed.*
+<div align="center">
+<sub>Data integrity notice: No actual financial values were altered during analysis. Only structural cleaning (removing blanks, summary rows) was performed. This report should be used alongside verified financial statements prepared by a qualified Chartered Accountant.</sub>
+</div>
