@@ -1,0 +1,51 @@
+{
+  "report_meta": {
+    "generated_at": "2026-04-18T23:31:12.944275",
+    "data_period": "April 2024 – August 2024",
+    "financial_year": "FY 2024-25",
+    "total_accounts": 152,
+    "total_records": 760,
+    "data_source": "Dummy Data for Review.xlsx"
+  },
+  "profit_and_loss": {
+    "total_revenue": 67828095.32,
+    "total_expenses": 61051045.52,
+    "net_profit_loss": 6777049.8,
+    "profit_margin_pct": 10.0,
+    "expense_to_revenue_pct": 90.0,
+    "is_profitable": true,
+    "revenue_growth_apr_to_aug_pct": 40.1
+  },
+  "balance_sheet": {
+    "net_assets": 248069021.26,
+    "net_liabilities": 49065883.78,
+    "net_equity": 149802350.12,
+    "cash_and_bank": 45133267.84,
+    "accounting_equation_check": 42423737.56
+  },
+  "monthly_performance": {
+    "best_month": "August 2024",
+    "best_month_net": 2587891.8,
+    "worst_month": "April 2024",
+    "worst_month_net": -505531.02,
+    "months_profitable": 4,
+    "months_in_loss": 1
+  },
+  "concentration": {
+    "top_80_debit_accounts": 11,
+    "total_debit_accounts": 94,
+    "top_80_credit_accounts": 5,
+    "total_credit_accounts": 41
+  },
+  "expense_structure": {
+    "top_expense_category": "Purchases",
+    "top_expense_amount": 30194798.51,
+    "top_expense_share_pct": 49.2
+  },
+  "health_indicators": {
+    "overall_status": "GOOD",
+    "profitability": "Profitable",
+    "cash_position": "Healthy",
+    "revenue_trend": "Growing"
+  }
+}

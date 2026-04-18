@@ -1,0 +1,22 @@
+Category,SubCategory,NetBalance,Side
+Assets,Current Assets,87136709.17,Debit
+Assets,Fixed Assets,45028969.0,Debit
+Assets,Bank,44957099.84,Debit
+Assets,Sundry Debtors,30958286.23,Debit
+Assets,Tax Assets,24220442.0,Debit
+Assets,Other Current Assets,6260380.0,Debit
+Assets,Investments,6200000.0,Debit
+Assets,Current Assets - Stock,3130967.02,Debit
+Assets,Cash,176168.0,Debit
+Assets,Fixed Assets - Depreciation,0.0,Credit
+Assets,Loans & Advances,0.0,Credit
+Liabilities,Current Liabilities,-22401512.3,Credit
+Liabilities,Sundry Creditors,-19502209.71,Credit
+Liabilities,Provisions,-15071492.0,Credit
+Liabilities,Duties & Taxes - Input,9355639.48,Debit
+Liabilities,Duties & Taxes,4636443.41,Debit
+Liabilities,Unsecured Loans,-4000000.0,Credit
+Liabilities,Loans,-2000000.0,Credit
+Liabilities,TDS Payable,-82738.0,Credit
+Liabilities,Duties & Taxes - Output,-14.66,Credit
+Equity,Capital,-149802350.12,Credit

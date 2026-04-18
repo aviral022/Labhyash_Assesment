@@ -1,0 +1,15 @@
+LABHYANSH SOLUTION — DATA CLEANING AUDIT TRAIL
+Generated: 2026-04-18 23:31:12
+Source: Dummy Data for Review.xlsx
+============================================================
+
+  [CLEAN] Removed 3 blank/empty rows from the dataset.
+  [CLEAN] Removed 2 summary/total rows ('Profit & Loss A/c', 'Grand Total') to prevent double-counting.
+  [CLEAN] No duplicate account entries found.
+  [TRANSFORM] Standardized column names: Account, MonthKey, MonthLabel, Debit, Credit, NetBalance, BalanceType, Category, SubCategory, StatementType.
+  [TRANSFORM] Unpivoted from wide format (5 month columns) to long format (individual monthly records).
+  [RESULT] Final clean dataset: 152 unique accounts × 5 months = 760 records.
+
+============================================================
+Total output files: 9
+Output directory: cleaned_data/

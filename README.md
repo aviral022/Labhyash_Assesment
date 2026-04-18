@@ -5,6 +5,7 @@
 ### Financial Business Report & Interactive Dashboard
 
 [![Live Dashboard](https://img.shields.io/badge/Live_Dashboard-View_Now-2ea44f?style=for-the-badge&logo=googlechrome&logoColor=white)](https://aviral022.github.io/Labhyash_Assesment/)
+[![Presentation](https://img.shields.io/badge/Presentation-View_Slides-8B5CF6?style=for-the-badge&logo=googlechrome&logoColor=white)](https://aviral022.github.io/Labhyash_Assesment/presentation.html)
 [![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
 [![Chart.js](https://img.shields.io/badge/Chart.js-4.4-FF6384?style=flat-square&logo=chartdotjs&logoColor=white)](https://chartjs.org)
 [![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](LICENSE)
@@ -17,9 +18,11 @@ A comprehensive financial analysis built from a **Trial Balance** dataset coveri
 
 ## Live Preview
 
-> **[aviral022.github.io/Labhyash_Assesment](https://aviral022.github.io/Labhyash_Assesment/)**
+> **Dashboard:** [aviral022.github.io/Labhyash_Assesment](https://aviral022.github.io/Labhyash_Assesment/)
+>
+> **Presentation:** [aviral022.github.io/Labhyash_Assesment/presentation.html](https://aviral022.github.io/Labhyash_Assesment/presentation.html)
 
-The interactive dashboard features glassmorphism design, hover-enabled Chart.js charts, tab switching between Bar/Line views, scroll animations, and full responsiveness.
+The interactive dashboard features glassmorphism design, hover enabled Chart.js charts, tab switching between Bar and Line views, scroll animations, and full responsiveness. The presentation is a 13 slide interactive deck with keyboard navigation, interactive charts, and professional dark theme.
 
 ---
 
@@ -73,14 +76,28 @@ High resolution charts for use in PowerPoint, Word, or any document: KPI table, 
 ```
 Labhyansh Solution/
   index.html                              Interactive Dashboard (GitHub Pages)
+  presentation.html                       Interactive Presentation (13 slides)
   Dummy Data for Review.xlsx              Source data (Trial Balance)
-  generate_report.py                      Data analysis & chart generation
+  generate_report.py                      Data analysis and chart generation
   create_dashboard.py                     Interactive dashboard generator
   create_presentation.py                  Slide presentation generator
+  clean_data.py                           Data cleaning and CSV export pipeline
   README.md                              This file
+  cleaned_data/
+    fact_transactions.csv                 Main fact table (760 records)
+    dim_accounts.csv                      Account dimension (152 accounts)
+    dim_calendar.csv                      Calendar dimension (5 months)
+    summary_monthly_pl.csv                Monthly P and L summary
+    summary_category.csv                  Category level aggregates
+    summary_expense_subcats.csv           Expense sub category breakdown
+    summary_top_accounts.csv              Top accounts by debit and credit
+    summary_balance_sheet.csv             Balance sheet snapshot
+    kpi_summary.json                      All KPIs in JSON format
+    Analysis_Insights.md                  Comprehensive analysis report
+    cleaning_log.txt                      Data cleaning audit trail
   report_output/
     Financial_Dashboard.html              Dashboard (copy of index.html)
-    Financial_Report_Presentation.html    16 slide presentation
+    Financial_Report_Presentation.html    16 slide presentation (legacy)
     Financial_Business_Report.md          Full written report
     01_kpi_summary.png                    KPI summary table
     02_top_debit_accounts.png             Top debit accounts chart
@@ -88,7 +105,7 @@ Labhyansh Solution/
     04_monthly_trend.png                  Revenue vs Expenses trend
     05_category_pie.png                   Category distribution
     06_expense_breakdown.png              Expense breakdown
-    07_monthly_stacked.png                Monthly stacked + cumulative
+    07_monthly_stacked.png                Monthly stacked and cumulative
     08_concentration_pareto.png           Concentration analysis
 ```
 
@@ -126,8 +143,14 @@ python create_dashboard.py
 # Generate slide presentation
 python create_presentation.py
 
+# Clean data and export CSVs for dashboarding
+python clean_data.py
+
 # Open dashboard in browser
-start report_output/Financial_Dashboard.html
+start index.html
+
+# Open presentation in browser
+start presentation.html
 ```
 
 ---

@@ -1,0 +1,761 @@
+AccountID,Account,MonthKey,MonthLabel,MonthNum,Quarter,FYQuarter,Year,Debit,Credit,NetBalance,AbsBalance,BalanceType,Category,SubCategory,StatementType
+ACC_0001,Capital Account,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,15236761.25,-15236761.25,15236761.25,Credit,Equity,Capital,Balance Sheet
+ACC_0001,Capital Account,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,15201975.2,-15201975.2,15201975.2,Credit,Equity,Capital,Balance Sheet
+ACC_0001,Capital Account,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,15192424.75,-15192424.75,15192424.75,Credit,Equity,Capital,Balance Sheet
+ACC_0001,Capital Account,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,14852684.8,-14852684.8,14852684.8,Credit,Equity,Capital,Balance Sheet
+ACC_0001,Capital Account,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,14417329.06,-14417329.06,14417329.06,Credit,Equity,Capital,Balance Sheet
+ACC_0002,Opening Adjustment,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,876.0,-876.0,876.0,Credit,Equity,Capital,Balance Sheet
+ACC_0002,Opening Adjustment,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,876.0,-876.0,876.0,Credit,Equity,Capital,Balance Sheet
+ACC_0002,Opening Adjustment,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,876.0,-876.0,876.0,Credit,Equity,Capital,Balance Sheet
+ACC_0002,Opening Adjustment,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,876.0,-876.0,876.0,Credit,Equity,Capital,Balance Sheet
+ACC_0002,Opening Adjustment,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,876.0,-876.0,876.0,Credit,Equity,Capital,Balance Sheet
+ACC_0003,MY FACTORY (DELHI)`2,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,1994536.0,-1994536.0,1994536.0,Credit,Equity,Capital,Balance Sheet
+ACC_0003,MY FACTORY (DELHI)`2,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,1994536.0,-1994536.0,1994536.0,Credit,Equity,Capital,Balance Sheet
+ACC_0003,MY FACTORY (DELHI)`2,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,1994536.0,-1994536.0,1994536.0,Credit,Equity,Capital,Balance Sheet
+ACC_0003,MY FACTORY (DELHI)`2,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,1994536.0,-1994536.0,1994536.0,Credit,Equity,Capital,Balance Sheet
+ACC_0003,MY FACTORY (DELHI)`2,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,1994536.0,-1994536.0,1994536.0,Credit,Equity,Capital,Balance Sheet
+ACC_0004,MEHTA CAPITAL ACCOUNT,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,13241349.25,-13241349.25,13241349.25,Credit,Equity,Capital,Balance Sheet
+ACC_0004,MEHTA CAPITAL ACCOUNT,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,13206563.2,-13206563.2,13206563.2,Credit,Equity,Capital,Balance Sheet
+ACC_0004,MEHTA CAPITAL ACCOUNT,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,13197012.75,-13197012.75,13197012.75,Credit,Equity,Capital,Balance Sheet
+ACC_0004,MEHTA CAPITAL ACCOUNT,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,12857272.8,-12857272.8,12857272.8,Credit,Equity,Capital,Balance Sheet
+ACC_0004,MEHTA CAPITAL ACCOUNT,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,12421917.06,-12421917.06,12421917.06,Credit,Equity,Capital,Balance Sheet
+ACC_0005,Loans (Liability),Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,400000.0,-400000.0,400000.0,Credit,Liabilities,Loans,Balance Sheet
+ACC_0005,Loans (Liability),May24,May 2024,5,Q1,Q1 FY25,2024,0.0,400000.0,-400000.0,400000.0,Credit,Liabilities,Loans,Balance Sheet
+ACC_0005,Loans (Liability),Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,400000.0,-400000.0,400000.0,Credit,Liabilities,Loans,Balance Sheet
+ACC_0005,Loans (Liability),Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,400000.0,-400000.0,400000.0,Credit,Liabilities,Loans,Balance Sheet
+ACC_0005,Loans (Liability),Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,400000.0,-400000.0,400000.0,Credit,Liabilities,Loans,Balance Sheet
+ACC_0006,Unsecured Loans,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,400000.0,-400000.0,400000.0,Credit,Liabilities,Unsecured Loans,Balance Sheet
+ACC_0006,Unsecured Loans,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,400000.0,-400000.0,400000.0,Credit,Liabilities,Unsecured Loans,Balance Sheet
+ACC_0006,Unsecured Loans,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,400000.0,-400000.0,400000.0,Credit,Liabilities,Unsecured Loans,Balance Sheet
+ACC_0006,Unsecured Loans,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,400000.0,-400000.0,400000.0,Credit,Liabilities,Unsecured Loans,Balance Sheet
+ACC_0006,Unsecured Loans,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,400000.0,-400000.0,400000.0,Credit,Liabilities,Unsecured Loans,Balance Sheet
+ACC_0007,A.M FOODS,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,400000.0,-400000.0,400000.0,Credit,Liabilities,Unsecured Loans,Balance Sheet
+ACC_0007,A.M FOODS,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,400000.0,-400000.0,400000.0,Credit,Liabilities,Unsecured Loans,Balance Sheet
+ACC_0007,A.M FOODS,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,400000.0,-400000.0,400000.0,Credit,Liabilities,Unsecured Loans,Balance Sheet
+ACC_0007,A.M FOODS,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,400000.0,-400000.0,400000.0,Credit,Liabilities,Unsecured Loans,Balance Sheet
+ACC_0007,A.M FOODS,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,400000.0,-400000.0,400000.0,Credit,Liabilities,Unsecured Loans,Balance Sheet
+ACC_0008,Current Liabilities,Apr24,April 2024,4,Q1,Q1 FY25,2024,953389.84,4858856.68,-3905466.84,3905466.84,Credit,Liabilities,Current Liabilities,Balance Sheet
+ACC_0008,Current Liabilities,May24,May 2024,5,Q1,Q1 FY25,2024,963035.02,5352200.55,-4389165.53,4389165.53,Credit,Liabilities,Current Liabilities,Balance Sheet
+ACC_0008,Current Liabilities,Jun24,June 2024,6,Q1,Q1 FY25,2024,994322.37,5588563.67,-4594241.3,4594241.3,Credit,Liabilities,Current Liabilities,Balance Sheet
+ACC_0008,Current Liabilities,Jul24,July 2024,7,Q2,Q2 FY25,2024,1064062.35,5478102.41,-4414040.06,4414040.06,Credit,Liabilities,Current Liabilities,Balance Sheet
+ACC_0008,Current Liabilities,Aug24,August 2024,8,Q2,Q2 FY25,2024,1125791.06,6224389.63,-5098598.57,5098598.57,Credit,Liabilities,Current Liabilities,Balance Sheet
+ACC_0009,Duties & Taxes,Apr24,April 2024,4,Q1,Q1 FY25,2024,844167.89,2214.75,841953.14,841953.14,Debit,Liabilities,Duties & Taxes,Balance Sheet
+ACC_0009,Duties & Taxes,May24,May 2024,5,Q1,Q1 FY25,2024,908335.31,8886.88,899448.43,899448.43,Debit,Liabilities,Duties & Taxes,Balance Sheet
+ACC_0009,Duties & Taxes,Jun24,June 2024,6,Q1,Q1 FY25,2024,922262.37,10488.91,911773.46,911773.46,Debit,Liabilities,Duties & Taxes,Balance Sheet
+ACC_0009,Duties & Taxes,Jul24,July 2024,7,Q2,Q2 FY25,2024,980330.35,10601.44,969728.91,969728.91,Debit,Liabilities,Duties & Taxes,Balance Sheet
+ACC_0009,Duties & Taxes,Aug24,August 2024,8,Q2,Q2 FY25,2024,1024568.06,11028.59,1013539.47,1013539.47,Debit,Liabilities,Duties & Taxes,Balance Sheet
+ACC_0010,Input Receivable,Apr24,April 2024,4,Q1,Q1 FY25,2024,844167.72,417.03,843750.69,843750.69,Debit,Liabilities,Duties & Taxes - Input,Balance Sheet
+ACC_0010,Input Receivable,May24,May 2024,5,Q1,Q1 FY25,2024,908335.31,0.0,908335.31,908335.31,Debit,Liabilities,Duties & Taxes - Input,Balance Sheet
+ACC_0010,Input Receivable,Jun24,June 2024,6,Q1,Q1 FY25,2024,921786.93,0.0,921786.93,921786.93,Debit,Liabilities,Duties & Taxes - Input,Balance Sheet
+ACC_0010,Input Receivable,Jul24,July 2024,7,Q2,Q2 FY25,2024,979854.37,0.0,979854.37,979854.37,Debit,Liabilities,Duties & Taxes - Input,Balance Sheet
+ACC_0010,Input Receivable,Aug24,August 2024,8,Q2,Q2 FY25,2024,1024092.44,0.0,1024092.44,1024092.44,Debit,Liabilities,Duties & Taxes - Input,Balance Sheet
+ACC_0011,CGST  Input,Apr24,April 2024,4,Q1,Q1 FY25,2024,458532.86,0.0,458532.86,458532.86,Debit,Liabilities,Duties & Taxes - Input,Balance Sheet
+ACC_0011,CGST  Input,May24,May 2024,5,Q1,Q1 FY25,2024,528060.09,0.0,528060.09,528060.09,Debit,Liabilities,Duties & Taxes - Input,Balance Sheet
+ACC_0011,CGST  Input,Jun24,June 2024,6,Q1,Q1 FY25,2024,578047.16,0.0,578047.16,578047.16,Debit,Liabilities,Duties & Taxes - Input,Balance Sheet
+ACC_0011,CGST  Input,Jul24,July 2024,7,Q2,Q2 FY25,2024,661293.79,0.0,661293.79,661293.79,Debit,Liabilities,Duties & Taxes - Input,Balance Sheet
+ACC_0011,CGST  Input,Aug24,August 2024,8,Q2,Q2 FY25,2024,739108.92,0.0,739108.92,739108.92,Debit,Liabilities,Duties & Taxes - Input,Balance Sheet
+ACC_0012,IGST Input,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,408.03,-408.03,408.03,Credit,Liabilities,Duties & Taxes - Input,Balance Sheet
+ACC_0012,IGST Input,May24,May 2024,5,Q1,Q1 FY25,2024,1366.13,0.0,1366.13,1366.13,Debit,Liabilities,Duties & Taxes - Input,Balance Sheet
+ACC_0012,IGST Input,Jun24,June 2024,6,Q1,Q1 FY25,2024,13935.61,0.0,13935.61,13935.61,Debit,Liabilities,Duties & Taxes - Input,Balance Sheet
+ACC_0012,IGST Input,Jul24,July 2024,7,Q2,Q2 FY25,2024,6640.79,0.0,6640.79,6640.79,Debit,Liabilities,Duties & Taxes - Input,Balance Sheet
+ACC_0012,IGST Input,Aug24,August 2024,8,Q2,Q2 FY25,2024,19012.6,0.0,19012.6,19012.6,Debit,Liabilities,Duties & Taxes - Input,Balance Sheet
+ACC_0013,MACHINERY PARTS IGST TAX 18%,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,9.0,-9.0,9.0,Credit,Liabilities,Duties & Taxes - Input,Balance Sheet
+ACC_0013,MACHINERY PARTS IGST TAX 18%,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Liabilities,Duties & Taxes - Input,Balance Sheet
+ACC_0013,MACHINERY PARTS IGST TAX 18%,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Liabilities,Duties & Taxes - Input,Balance Sheet
+ACC_0013,MACHINERY PARTS IGST TAX 18%,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Liabilities,Duties & Taxes - Input,Balance Sheet
+ACC_0013,MACHINERY PARTS IGST TAX 18%,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Liabilities,Duties & Taxes - Input,Balance Sheet
+ACC_0014,PURCHASE CGST 9%,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Liabilities,Duties & Taxes - Input,Balance Sheet
+ACC_0014,PURCHASE CGST 9%,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Liabilities,Duties & Taxes - Input,Balance Sheet
+ACC_0014,PURCHASE CGST 9%,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Liabilities,Duties & Taxes - Input,Balance Sheet
+ACC_0014,PURCHASE CGST 9%,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Liabilities,Duties & Taxes - Input,Balance Sheet
+ACC_0014,PURCHASE CGST 9%,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Liabilities,Duties & Taxes - Input,Balance Sheet
+ACC_0015,PURCHASE SGST 9%,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Liabilities,Duties & Taxes - Input,Balance Sheet
+ACC_0015,PURCHASE SGST 9%,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Liabilities,Duties & Taxes - Input,Balance Sheet
+ACC_0015,PURCHASE SGST 9%,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Liabilities,Duties & Taxes - Input,Balance Sheet
+ACC_0015,PURCHASE SGST 9%,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Liabilities,Duties & Taxes - Input,Balance Sheet
+ACC_0015,PURCHASE SGST 9%,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Liabilities,Duties & Taxes - Input,Balance Sheet
+ACC_0016,SGST Input,Apr24,April 2024,4,Q1,Q1 FY25,2024,385634.86,0.0,385634.86,385634.86,Debit,Liabilities,Duties & Taxes - Input,Balance Sheet
+ACC_0016,SGST Input,May24,May 2024,5,Q1,Q1 FY25,2024,378909.09,0.0,378909.09,378909.09,Debit,Liabilities,Duties & Taxes - Input,Balance Sheet
+ACC_0016,SGST Input,Jun24,June 2024,6,Q1,Q1 FY25,2024,329804.16,0.0,329804.16,329804.16,Debit,Liabilities,Duties & Taxes - Input,Balance Sheet
+ACC_0016,SGST Input,Jul24,July 2024,7,Q2,Q2 FY25,2024,311919.79,0.0,311919.79,311919.79,Debit,Liabilities,Duties & Taxes - Input,Balance Sheet
+ACC_0016,SGST Input,Aug24,August 2024,8,Q2,Q2 FY25,2024,265970.92,0.0,265970.92,265970.92,Debit,Liabilities,Duties & Taxes - Input,Balance Sheet
+ACC_0017,Output,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.17,0.72,-0.55,0.55,Credit,Liabilities,Duties & Taxes - Output,Balance Sheet
+ACC_0017,Output,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,0.88,-0.88,0.88,Credit,Liabilities,Duties & Taxes - Output,Balance Sheet
+ACC_0017,Output,Jun24,June 2024,6,Q1,Q1 FY25,2024,475.44,477.91,-2.47,2.47,Credit,Liabilities,Duties & Taxes - Output,Balance Sheet
+ACC_0017,Output,Jul24,July 2024,7,Q2,Q2 FY25,2024,475.98,477.44,-1.46,1.46,Credit,Liabilities,Duties & Taxes - Output,Balance Sheet
+ACC_0017,Output,Aug24,August 2024,8,Q2,Q2 FY25,2024,475.62,477.59,-1.97,1.97,Credit,Liabilities,Duties & Taxes - Output,Balance Sheet
+ACC_0018,CGST,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,0.36,-0.36,0.36,Credit,Liabilities,Duties & Taxes - Output,Balance Sheet
+ACC_0018,CGST,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,0.31,-0.31,0.31,Credit,Liabilities,Duties & Taxes - Output,Balance Sheet
+ACC_0018,CGST,Jun24,June 2024,6,Q1,Q1 FY25,2024,237.72,0.0,237.72,237.72,Debit,Liabilities,Duties & Taxes - Output,Balance Sheet
+ACC_0018,CGST,Jul24,July 2024,7,Q2,Q2 FY25,2024,237.99,0.0,237.99,237.99,Debit,Liabilities,Duties & Taxes - Output,Balance Sheet
+ACC_0018,CGST,Aug24,August 2024,8,Q2,Q2 FY25,2024,237.81,0.0,237.81,237.81,Debit,Liabilities,Duties & Taxes - Output,Balance Sheet
+ACC_0019,IGST,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.17,0.0,0.17,0.17,Debit,Liabilities,Duties & Taxes - Output,Balance Sheet
+ACC_0019,IGST,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,0.26,-0.26,0.26,Credit,Liabilities,Duties & Taxes - Output,Balance Sheet
+ACC_0019,IGST,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,477.91,-477.91,477.91,Credit,Liabilities,Duties & Taxes - Output,Balance Sheet
+ACC_0019,IGST,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,477.44,-477.44,477.44,Credit,Liabilities,Duties & Taxes - Output,Balance Sheet
+ACC_0019,IGST,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,477.59,-477.59,477.59,Credit,Liabilities,Duties & Taxes - Output,Balance Sheet
+ACC_0020,SGST,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,0.36,-0.36,0.36,Credit,Liabilities,Duties & Taxes - Output,Balance Sheet
+ACC_0020,SGST,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,0.31,-0.31,0.31,Credit,Liabilities,Duties & Taxes - Output,Balance Sheet
+ACC_0020,SGST,Jun24,June 2024,6,Q1,Q1 FY25,2024,237.72,0.0,237.72,237.72,Debit,Liabilities,Duties & Taxes - Output,Balance Sheet
+ACC_0020,SGST,Jul24,July 2024,7,Q2,Q2 FY25,2024,237.99,0.0,237.99,237.99,Debit,Liabilities,Duties & Taxes - Output,Balance Sheet
+ACC_0020,SGST,Aug24,August 2024,8,Q2,Q2 FY25,2024,237.81,0.0,237.81,237.81,Debit,Liabilities,Duties & Taxes - Output,Balance Sheet
+ACC_0021,TDS Payable,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,1797.0,-1797.0,1797.0,Credit,Liabilities,TDS Payable,Balance Sheet
+ACC_0021,TDS Payable,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,8886.0,-8886.0,8886.0,Credit,Liabilities,TDS Payable,Balance Sheet
+ACC_0021,TDS Payable,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,10011.0,-10011.0,10011.0,Credit,Liabilities,TDS Payable,Balance Sheet
+ACC_0021,TDS Payable,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,10124.0,-10124.0,10124.0,Credit,Liabilities,TDS Payable,Balance Sheet
+ACC_0021,TDS Payable,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,10551.0,-10551.0,10551.0,Credit,Liabilities,TDS Payable,Balance Sheet
+ACC_0022,TDS 194C Contractor Company,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Liabilities,TDS Payable,Balance Sheet
+ACC_0022,TDS 194C Contractor Company,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Liabilities,TDS Payable,Balance Sheet
+ACC_0022,TDS 194C Contractor Company,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Liabilities,TDS Payable,Balance Sheet
+ACC_0022,TDS 194C Contractor Company,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Liabilities,TDS Payable,Balance Sheet
+ACC_0022,TDS 194C Contractor Company,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Liabilities,TDS Payable,Balance Sheet
+ACC_0023,TDS 194C Contractor Non Company,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,1797.0,-1797.0,1797.0,Credit,Liabilities,TDS Payable,Balance Sheet
+ACC_0023,TDS 194C Contractor Non Company,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,6086.0,-6086.0,6086.0,Credit,Liabilities,TDS Payable,Balance Sheet
+ACC_0023,TDS 194C Contractor Non Company,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,7211.0,-7211.0,7211.0,Credit,Liabilities,TDS Payable,Balance Sheet
+ACC_0023,TDS 194C Contractor Non Company,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,7324.0,-7324.0,7324.0,Credit,Liabilities,TDS Payable,Balance Sheet
+ACC_0023,TDS 194C Contractor Non Company,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,7751.0,-7751.0,7751.0,Credit,Liabilities,TDS Payable,Balance Sheet
+ACC_0024,TDS Professional 194J,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Liabilities,TDS Payable,Balance Sheet
+ACC_0024,TDS Professional 194J,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,2800.0,-2800.0,2800.0,Credit,Liabilities,TDS Payable,Balance Sheet
+ACC_0024,TDS Professional 194J,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,2800.0,-2800.0,2800.0,Credit,Liabilities,TDS Payable,Balance Sheet
+ACC_0024,TDS Professional 194J,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,2800.0,-2800.0,2800.0,Credit,Liabilities,TDS Payable,Balance Sheet
+ACC_0024,TDS Professional 194J,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,2800.0,-2800.0,2800.0,Credit,Liabilities,TDS Payable,Balance Sheet
+ACC_0025,Provisions,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,1361969.0,-1361969.0,1361969.0,Credit,Liabilities,Provisions,Balance Sheet
+ACC_0025,Provisions,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,1549104.0,-1549104.0,1549104.0,Credit,Liabilities,Provisions,Balance Sheet
+ACC_0025,Provisions,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,1544416.0,-1544416.0,1544416.0,Credit,Liabilities,Provisions,Balance Sheet
+ACC_0025,Provisions,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,1525849.0,-1525849.0,1525849.0,Credit,Liabilities,Provisions,Balance Sheet
+ACC_0025,Provisions,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,1554408.0,-1554408.0,1554408.0,Credit,Liabilities,Provisions,Balance Sheet
+ACC_0026,AUDIT FEES PAYABLE,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,5000.0,-5000.0,5000.0,Credit,Liabilities,Provisions,Balance Sheet
+ACC_0026,AUDIT FEES PAYABLE,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,5000.0,-5000.0,5000.0,Credit,Liabilities,Provisions,Balance Sheet
+ACC_0026,AUDIT FEES PAYABLE,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,5000.0,-5000.0,5000.0,Credit,Liabilities,Provisions,Balance Sheet
+ACC_0026,AUDIT FEES PAYABLE,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,5000.0,-5000.0,5000.0,Credit,Liabilities,Provisions,Balance Sheet
+ACC_0026,AUDIT FEES PAYABLE,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,5000.0,-5000.0,5000.0,Credit,Liabilities,Provisions,Balance Sheet
+ACC_0027,EPF-Administrative Charges Payable,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,2034.0,-2034.0,2034.0,Credit,Liabilities,Provisions,Balance Sheet
+ACC_0027,EPF-Administrative Charges Payable,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,2056.0,-2056.0,2056.0,Credit,Liabilities,Provisions,Balance Sheet
+ACC_0027,EPF-Administrative Charges Payable,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,1948.0,-1948.0,1948.0,Credit,Liabilities,Provisions,Balance Sheet
+ACC_0027,EPF-Administrative Charges Payable,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,1742.0,-1742.0,1742.0,Credit,Liabilities,Provisions,Balance Sheet
+ACC_0027,EPF-Administrative Charges Payable,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,1954.0,-1954.0,1954.0,Credit,Liabilities,Provisions,Balance Sheet
+ACC_0028,EPF PAYABLE,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,48816.0,-48816.0,48816.0,Credit,Liabilities,Provisions,Balance Sheet
+ACC_0028,EPF PAYABLE,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,49344.0,-49344.0,49344.0,Credit,Liabilities,Provisions,Balance Sheet
+ACC_0028,EPF PAYABLE,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,46758.0,-46758.0,46758.0,Credit,Liabilities,Provisions,Balance Sheet
+ACC_0028,EPF PAYABLE,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,41794.0,-41794.0,41794.0,Credit,Liabilities,Provisions,Balance Sheet
+ACC_0028,EPF PAYABLE,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,46886.0,-46886.0,46886.0,Credit,Liabilities,Provisions,Balance Sheet
+ACC_0029,ESIC PAYABLE,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,8796.0,-8796.0,8796.0,Credit,Liabilities,Provisions,Balance Sheet
+ACC_0029,ESIC PAYABLE,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,8853.0,-8853.0,8853.0,Credit,Liabilities,Provisions,Balance Sheet
+ACC_0029,ESIC PAYABLE,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,8323.0,-8323.0,8323.0,Credit,Liabilities,Provisions,Balance Sheet
+ACC_0029,ESIC PAYABLE,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,7561.0,-7561.0,7561.0,Credit,Liabilities,Provisions,Balance Sheet
+ACC_0029,ESIC PAYABLE,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,8621.0,-8621.0,8621.0,Credit,Liabilities,Provisions,Balance Sheet
+ACC_0030,LWF Payble,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,8683.0,-8683.0,8683.0,Credit,Liabilities,Provisions,Balance Sheet
+ACC_0030,LWF Payble,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,9935.0,-9935.0,9935.0,Credit,Liabilities,Provisions,Balance Sheet
+ACC_0030,LWF Payble,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,11131.0,-11131.0,11131.0,Credit,Liabilities,Provisions,Balance Sheet
+ACC_0030,LWF Payble,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,12221.0,-12221.0,12221.0,Credit,Liabilities,Provisions,Balance Sheet
+ACC_0030,LWF Payble,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,13401.0,-13401.0,13401.0,Credit,Liabilities,Provisions,Balance Sheet
+ACC_0031,MANUFACTURING EXPENSES PAYABLE,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,519780.0,-519780.0,519780.0,Credit,Liabilities,Provisions,Balance Sheet
+ACC_0031,MANUFACTURING EXPENSES PAYABLE,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,519780.0,-519780.0,519780.0,Credit,Liabilities,Provisions,Balance Sheet
+ACC_0031,MANUFACTURING EXPENSES PAYABLE,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,519780.0,-519780.0,519780.0,Credit,Liabilities,Provisions,Balance Sheet
+ACC_0031,MANUFACTURING EXPENSES PAYABLE,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,519780.0,-519780.0,519780.0,Credit,Liabilities,Provisions,Balance Sheet
+ACC_0031,MANUFACTURING EXPENSES PAYABLE,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,519780.0,-519780.0,519780.0,Credit,Liabilities,Provisions,Balance Sheet
+ACC_0032,Provision for Electricity Expenses,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Liabilities,Provisions,Balance Sheet
+ACC_0032,Provision for Electricity Expenses,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,100000.0,-100000.0,100000.0,Credit,Liabilities,Provisions,Balance Sheet
+ACC_0032,Provision for Electricity Expenses,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,100000.0,-100000.0,100000.0,Credit,Liabilities,Provisions,Balance Sheet
+ACC_0032,Provision for Electricity Expenses,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,100000.0,-100000.0,100000.0,Credit,Liabilities,Provisions,Balance Sheet
+ACC_0032,Provision for Electricity Expenses,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,100000.0,-100000.0,100000.0,Credit,Liabilities,Provisions,Balance Sheet
+ACC_0033,PROVISION FOR EXPENSES,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,425362.0,-425362.0,425362.0,Credit,Liabilities,Provisions,Balance Sheet
+ACC_0033,PROVISION FOR EXPENSES,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,485381.0,-485381.0,485381.0,Credit,Liabilities,Provisions,Balance Sheet
+ACC_0033,PROVISION FOR EXPENSES,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,485381.0,-485381.0,485381.0,Credit,Liabilities,Provisions,Balance Sheet
+ACC_0033,PROVISION FOR EXPENSES,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,482444.0,-482444.0,482444.0,Credit,Liabilities,Provisions,Balance Sheet
+ACC_0033,PROVISION FOR EXPENSES,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,481124.0,-481124.0,481124.0,Credit,Liabilities,Provisions,Balance Sheet
+ACC_0034,Provision for Tax,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Liabilities,Provisions,Balance Sheet
+ACC_0034,Provision for Tax,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Liabilities,Provisions,Balance Sheet
+ACC_0034,Provision for Tax,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Liabilities,Provisions,Balance Sheet
+ACC_0034,Provision for Tax,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Liabilities,Provisions,Balance Sheet
+ACC_0034,Provision for Tax,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Liabilities,Provisions,Balance Sheet
+ACC_0035,SALARY PAYABLE,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,343498.0,-343498.0,343498.0,Credit,Liabilities,Provisions,Balance Sheet
+ACC_0035,SALARY PAYABLE,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,368755.0,-368755.0,368755.0,Credit,Liabilities,Provisions,Balance Sheet
+ACC_0035,SALARY PAYABLE,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,366095.0,-366095.0,366095.0,Credit,Liabilities,Provisions,Balance Sheet
+ACC_0035,SALARY PAYABLE,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,355307.0,-355307.0,355307.0,Credit,Liabilities,Provisions,Balance Sheet
+ACC_0035,SALARY PAYABLE,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,377642.0,-377642.0,377642.0,Credit,Liabilities,Provisions,Balance Sheet
+ACC_0036,Sundry Creditors,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,3281004.13,-3281004.13,3281004.13,Credit,Liabilities,Sundry Creditors,Balance Sheet
+ACC_0036,Sundry Creditors,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,3598032.17,-3598032.17,3598032.17,Credit,Liabilities,Sundry Creditors,Balance Sheet
+ACC_0036,Sundry Creditors,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,3838478.08,-3838478.08,3838478.08,Credit,Liabilities,Sundry Creditors,Balance Sheet
+ACC_0036,Sundry Creditors,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,3442615.36,-3442615.36,3442615.36,Credit,Liabilities,Sundry Creditors,Balance Sheet
+ACC_0036,Sundry Creditors,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,3931017.16,-3931017.16,3931017.16,Credit,Liabilities,Sundry Creditors,Balance Sheet
+ACC_0037,HDFC Credit Card 2140,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,104446.85,-104446.85,104446.85,Credit,Liabilities,Sundry Creditors,Balance Sheet
+ACC_0037,HDFC Credit Card 2140,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,141477.79,-141477.79,141477.79,Credit,Liabilities,Sundry Creditors,Balance Sheet
+ACC_0037,HDFC Credit Card 2140,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,123120.68,-123120.68,123120.68,Credit,Liabilities,Sundry Creditors,Balance Sheet
+ACC_0037,HDFC Credit Card 2140,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,415304.61,-415304.61,415304.61,Credit,Liabilities,Sundry Creditors,Balance Sheet
+ACC_0037,HDFC Credit Card 2140,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,626712.88,-626712.88,626712.88,Credit,Liabilities,Sundry Creditors,Balance Sheet
+ACC_0038,Fixed Assets,Apr24,April 2024,4,Q1,Q1 FY25,2024,4502896.9,0.0,4502896.9,4502896.9,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0038,Fixed Assets,May24,May 2024,5,Q1,Q1 FY25,2024,4502896.9,0.0,4502896.9,4502896.9,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0038,Fixed Assets,Jun24,June 2024,6,Q1,Q1 FY25,2024,4502896.9,0.0,4502896.9,4502896.9,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0038,Fixed Assets,Jul24,July 2024,7,Q2,Q2 FY25,2024,4502896.9,0.0,4502896.9,4502896.9,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0038,Fixed Assets,Aug24,August 2024,8,Q2,Q2 FY25,2024,4502896.9,0.0,4502896.9,4502896.9,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0039,Accumulated Depreciation,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Assets,Fixed Assets - Depreciation,Balance Sheet
+ACC_0039,Accumulated Depreciation,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Assets,Fixed Assets - Depreciation,Balance Sheet
+ACC_0039,Accumulated Depreciation,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Assets,Fixed Assets - Depreciation,Balance Sheet
+ACC_0039,Accumulated Depreciation,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Assets,Fixed Assets - Depreciation,Balance Sheet
+ACC_0039,Accumulated Depreciation,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Assets,Fixed Assets - Depreciation,Balance Sheet
+ACC_0040,BIKE,Apr24,April 2024,4,Q1,Q1 FY25,2024,90429.8,0.0,90429.8,90429.8,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0040,BIKE,May24,May 2024,5,Q1,Q1 FY25,2024,90429.8,0.0,90429.8,90429.8,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0040,BIKE,Jun24,June 2024,6,Q1,Q1 FY25,2024,90429.8,0.0,90429.8,90429.8,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0040,BIKE,Jul24,July 2024,7,Q2,Q2 FY25,2024,90429.8,0.0,90429.8,90429.8,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0040,BIKE,Aug24,August 2024,8,Q2,Q2 FY25,2024,90429.8,0.0,90429.8,90429.8,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0041,CAR(ISUZU),Apr24,April 2024,4,Q1,Q1 FY25,2024,609484.0,0.0,609484.0,609484.0,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0041,CAR(ISUZU),May24,May 2024,5,Q1,Q1 FY25,2024,609484.0,0.0,609484.0,609484.0,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0041,CAR(ISUZU),Jun24,June 2024,6,Q1,Q1 FY25,2024,609484.0,0.0,609484.0,609484.0,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0041,CAR(ISUZU),Jul24,July 2024,7,Q2,Q2 FY25,2024,609484.0,0.0,609484.0,609484.0,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0041,CAR(ISUZU),Aug24,August 2024,8,Q2,Q2 FY25,2024,609484.0,0.0,609484.0,609484.0,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0042,Chapati Making Machine,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Assets,Fixed Assets,Balance Sheet
+ACC_0042,Chapati Making Machine,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Assets,Fixed Assets,Balance Sheet
+ACC_0042,Chapati Making Machine,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Assets,Fixed Assets,Balance Sheet
+ACC_0042,Chapati Making Machine,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Assets,Fixed Assets,Balance Sheet
+ACC_0042,Chapati Making Machine,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Assets,Fixed Assets,Balance Sheet
+ACC_0043,COOLER,Apr24,April 2024,4,Q1,Q1 FY25,2024,461362.6,0.0,461362.6,461362.6,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0043,COOLER,May24,May 2024,5,Q1,Q1 FY25,2024,461362.6,0.0,461362.6,461362.6,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0043,COOLER,Jun24,June 2024,6,Q1,Q1 FY25,2024,461362.6,0.0,461362.6,461362.6,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0043,COOLER,Jul24,July 2024,7,Q2,Q2 FY25,2024,461362.6,0.0,461362.6,461362.6,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0043,COOLER,Aug24,August 2024,8,Q2,Q2 FY25,2024,461362.6,0.0,461362.6,461362.6,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0044,DUSTBIN 120LTR,Apr24,April 2024,4,Q1,Q1 FY25,2024,1801.15,0.0,1801.15,1801.15,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0044,DUSTBIN 120LTR,May24,May 2024,5,Q1,Q1 FY25,2024,1801.15,0.0,1801.15,1801.15,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0044,DUSTBIN 120LTR,Jun24,June 2024,6,Q1,Q1 FY25,2024,1801.15,0.0,1801.15,1801.15,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0044,DUSTBIN 120LTR,Jul24,July 2024,7,Q2,Q2 FY25,2024,1801.15,0.0,1801.15,1801.15,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0044,DUSTBIN 120LTR,Aug24,August 2024,8,Q2,Q2 FY25,2024,1801.15,0.0,1801.15,1801.15,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0045,FURNITURE IGST 18%,Apr24,April 2024,4,Q1,Q1 FY25,2024,17714.7,0.0,17714.7,17714.7,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0045,FURNITURE IGST 18%,May24,May 2024,5,Q1,Q1 FY25,2024,17714.7,0.0,17714.7,17714.7,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0045,FURNITURE IGST 18%,Jun24,June 2024,6,Q1,Q1 FY25,2024,17714.7,0.0,17714.7,17714.7,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0045,FURNITURE IGST 18%,Jul24,July 2024,7,Q2,Q2 FY25,2024,17714.7,0.0,17714.7,17714.7,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0045,FURNITURE IGST 18%,Aug24,August 2024,8,Q2,Q2 FY25,2024,17714.7,0.0,17714.7,17714.7,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0046,LUMINOUS BATTERY,Apr24,April 2024,4,Q1,Q1 FY25,2024,3582.75,0.0,3582.75,3582.75,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0046,LUMINOUS BATTERY,May24,May 2024,5,Q1,Q1 FY25,2024,3582.75,0.0,3582.75,3582.75,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0046,LUMINOUS BATTERY,Jun24,June 2024,6,Q1,Q1 FY25,2024,3582.75,0.0,3582.75,3582.75,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0046,LUMINOUS BATTERY,Jul24,July 2024,7,Q2,Q2 FY25,2024,3582.75,0.0,3582.75,3582.75,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0046,LUMINOUS BATTERY,Aug24,August 2024,8,Q2,Q2 FY25,2024,3582.75,0.0,3582.75,3582.75,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0047,MACHINERY IGST 18%,Apr24,April 2024,4,Q1,Q1 FY25,2024,3093698.3,0.0,3093698.3,3093698.3,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0047,MACHINERY IGST 18%,May24,May 2024,5,Q1,Q1 FY25,2024,3093698.3,0.0,3093698.3,3093698.3,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0047,MACHINERY IGST 18%,Jun24,June 2024,6,Q1,Q1 FY25,2024,3093698.3,0.0,3093698.3,3093698.3,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0047,MACHINERY IGST 18%,Jul24,July 2024,7,Q2,Q2 FY25,2024,3093698.3,0.0,3093698.3,3093698.3,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0047,MACHINERY IGST 18%,Aug24,August 2024,8,Q2,Q2 FY25,2024,3093698.3,0.0,3093698.3,3093698.3,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0048,MOBILE,Apr24,April 2024,4,Q1,Q1 FY25,2024,51838.95,0.0,51838.95,51838.95,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0048,MOBILE,May24,May 2024,5,Q1,Q1 FY25,2024,51838.95,0.0,51838.95,51838.95,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0048,MOBILE,Jun24,June 2024,6,Q1,Q1 FY25,2024,51838.95,0.0,51838.95,51838.95,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0048,MOBILE,Jul24,July 2024,7,Q2,Q2 FY25,2024,51838.95,0.0,51838.95,51838.95,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0048,MOBILE,Aug24,August 2024,8,Q2,Q2 FY25,2024,51838.95,0.0,51838.95,51838.95,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0049,PUMP,Apr24,April 2024,4,Q1,Q1 FY25,2024,3463.75,0.0,3463.75,3463.75,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0049,PUMP,May24,May 2024,5,Q1,Q1 FY25,2024,3463.75,0.0,3463.75,3463.75,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0049,PUMP,Jun24,June 2024,6,Q1,Q1 FY25,2024,3463.75,0.0,3463.75,3463.75,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0049,PUMP,Jul24,July 2024,7,Q2,Q2 FY25,2024,3463.75,0.0,3463.75,3463.75,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0049,PUMP,Aug24,August 2024,8,Q2,Q2 FY25,2024,3463.75,0.0,3463.75,3463.75,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0050,RO PLANT IGST 18%,Apr24,April 2024,4,Q1,Q1 FY25,2024,148000.0,0.0,148000.0,148000.0,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0050,RO PLANT IGST 18%,May24,May 2024,5,Q1,Q1 FY25,2024,148000.0,0.0,148000.0,148000.0,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0050,RO PLANT IGST 18%,Jun24,June 2024,6,Q1,Q1 FY25,2024,148000.0,0.0,148000.0,148000.0,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0050,RO PLANT IGST 18%,Jul24,July 2024,7,Q2,Q2 FY25,2024,148000.0,0.0,148000.0,148000.0,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0050,RO PLANT IGST 18%,Aug24,August 2024,8,Q2,Q2 FY25,2024,148000.0,0.0,148000.0,148000.0,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0051,SAREGAMA CARVAAN GST 18%,Apr24,April 2024,4,Q1,Q1 FY25,2024,4198.15,0.0,4198.15,4198.15,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0051,SAREGAMA CARVAAN GST 18%,May24,May 2024,5,Q1,Q1 FY25,2024,4198.15,0.0,4198.15,4198.15,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0051,SAREGAMA CARVAAN GST 18%,Jun24,June 2024,6,Q1,Q1 FY25,2024,4198.15,0.0,4198.15,4198.15,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0051,SAREGAMA CARVAAN GST 18%,Jul24,July 2024,7,Q2,Q2 FY25,2024,4198.15,0.0,4198.15,4198.15,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0051,SAREGAMA CARVAAN GST 18%,Aug24,August 2024,8,Q2,Q2 FY25,2024,4198.15,0.0,4198.15,4198.15,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0052,TABLE,Apr24,April 2024,4,Q1,Q1 FY25,2024,13796.1,0.0,13796.1,13796.1,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0052,TABLE,May24,May 2024,5,Q1,Q1 FY25,2024,13796.1,0.0,13796.1,13796.1,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0052,TABLE,Jun24,June 2024,6,Q1,Q1 FY25,2024,13796.1,0.0,13796.1,13796.1,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0052,TABLE,Jul24,July 2024,7,Q2,Q2 FY25,2024,13796.1,0.0,13796.1,13796.1,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0052,TABLE,Aug24,August 2024,8,Q2,Q2 FY25,2024,13796.1,0.0,13796.1,13796.1,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0053,Weighing Machine,Apr24,April 2024,4,Q1,Q1 FY25,2024,3526.65,0.0,3526.65,3526.65,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0053,Weighing Machine,May24,May 2024,5,Q1,Q1 FY25,2024,3526.65,0.0,3526.65,3526.65,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0053,Weighing Machine,Jun24,June 2024,6,Q1,Q1 FY25,2024,3526.65,0.0,3526.65,3526.65,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0053,Weighing Machine,Jul24,July 2024,7,Q2,Q2 FY25,2024,3526.65,0.0,3526.65,3526.65,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0053,Weighing Machine,Aug24,August 2024,8,Q2,Q2 FY25,2024,3526.65,0.0,3526.65,3526.65,Debit,Assets,Fixed Assets,Balance Sheet
+ACC_0054,Investments,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Assets,Investments,Balance Sheet
+ACC_0054,Investments,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Assets,Investments,Balance Sheet
+ACC_0054,Investments,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Assets,Investments,Balance Sheet
+ACC_0054,Investments,Jul24,July 2024,7,Q2,Q2 FY25,2024,1500000.0,0.0,1500000.0,1500000.0,Debit,Assets,Investments,Balance Sheet
+ACC_0054,Investments,Aug24,August 2024,8,Q2,Q2 FY25,2024,1600000.0,0.0,1600000.0,1600000.0,Debit,Assets,Investments,Balance Sheet
+ACC_0055,Investment in FDR,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Assets,Investments,Balance Sheet
+ACC_0055,Investment in FDR,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Assets,Investments,Balance Sheet
+ACC_0055,Investment in FDR,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Assets,Investments,Balance Sheet
+ACC_0055,Investment in FDR,Jul24,July 2024,7,Q2,Q2 FY25,2024,1000000.0,0.0,1000000.0,1000000.0,Debit,Assets,Investments,Balance Sheet
+ACC_0055,Investment in FDR,Aug24,August 2024,8,Q2,Q2 FY25,2024,1000000.0,0.0,1000000.0,1000000.0,Debit,Assets,Investments,Balance Sheet
+ACC_0056,Kotak  Mutual Fund,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Assets,Investments,Balance Sheet
+ACC_0056,Kotak  Mutual Fund,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Assets,Investments,Balance Sheet
+ACC_0056,Kotak  Mutual Fund,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Assets,Investments,Balance Sheet
+ACC_0056,Kotak  Mutual Fund,Jul24,July 2024,7,Q2,Q2 FY25,2024,500000.0,0.0,500000.0,500000.0,Debit,Assets,Investments,Balance Sheet
+ACC_0056,Kotak  Mutual Fund,Aug24,August 2024,8,Q2,Q2 FY25,2024,500000.0,0.0,500000.0,500000.0,Debit,Assets,Investments,Balance Sheet
+ACC_0057,Motilal Oswal Financial Services Ltd,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Assets,Investments,Balance Sheet
+ACC_0057,Motilal Oswal Financial Services Ltd,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Assets,Investments,Balance Sheet
+ACC_0057,Motilal Oswal Financial Services Ltd,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Assets,Investments,Balance Sheet
+ACC_0057,Motilal Oswal Financial Services Ltd,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Assets,Investments,Balance Sheet
+ACC_0057,Motilal Oswal Financial Services Ltd,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Assets,Investments,Balance Sheet
+ACC_0058,Nippon Mutual Fund,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Assets,Investments,Balance Sheet
+ACC_0058,Nippon Mutual Fund,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Assets,Investments,Balance Sheet
+ACC_0058,Nippon Mutual Fund,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Assets,Investments,Balance Sheet
+ACC_0058,Nippon Mutual Fund,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Assets,Investments,Balance Sheet
+ACC_0058,Nippon Mutual Fund,Aug24,August 2024,8,Q2,Q2 FY25,2024,100000.0,0.0,100000.0,100000.0,Debit,Assets,Investments,Balance Sheet
+ACC_0059,TPT Investment Management (TPTIM),Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Assets,Investments,Balance Sheet
+ACC_0059,TPT Investment Management (TPTIM),May24,May 2024,5,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Assets,Investments,Balance Sheet
+ACC_0059,TPT Investment Management (TPTIM),Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Assets,Investments,Balance Sheet
+ACC_0059,TPT Investment Management (TPTIM),Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Assets,Investments,Balance Sheet
+ACC_0059,TPT Investment Management (TPTIM),Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Assets,Investments,Balance Sheet
+ACC_0060,Current Assets,Apr24,April 2024,4,Q1,Q1 FY25,2024,15056943.18,26072.5,15030870.68,15030870.68,Debit,Assets,Current Assets,Balance Sheet
+ACC_0060,Current Assets,May24,May 2024,5,Q1,Q1 FY25,2024,18695156.56,1831226.04,16863930.52,16863930.52,Debit,Assets,Current Assets,Balance Sheet
+ACC_0060,Current Assets,Jun24,June 2024,6,Q1,Q1 FY25,2024,18892959.26,53714.78,18839244.48,18839244.48,Debit,Assets,Current Assets,Balance Sheet
+ACC_0060,Current Assets,Jul24,July 2024,7,Q2,Q2 FY25,2024,17369226.12,62865.78,17306360.34,17306360.34,Debit,Assets,Current Assets,Balance Sheet
+ACC_0060,Current Assets,Aug24,August 2024,8,Q2,Q2 FY25,2024,19112633.43,16330.28,19096303.15,19096303.15,Debit,Assets,Current Assets,Balance Sheet
+ACC_0061,Opening Stock,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Assets,Current Assets - Stock,Balance Sheet
+ACC_0061,Opening Stock,May24,May 2024,5,Q1,Q1 FY25,2024,790280.6,0.0,790280.6,790280.6,Debit,Assets,Current Assets - Stock,Balance Sheet
+ACC_0061,Opening Stock,Jun24,June 2024,6,Q1,Q1 FY25,2024,1056257.02,0.0,1056257.02,1056257.02,Debit,Assets,Current Assets - Stock,Balance Sheet
+ACC_0061,Opening Stock,Jul24,July 2024,7,Q2,Q2 FY25,2024,590131.38,0.0,590131.38,590131.38,Debit,Assets,Current Assets - Stock,Balance Sheet
+ACC_0061,Opening Stock,Aug24,August 2024,8,Q2,Q2 FY25,2024,694298.02,0.0,694298.02,694298.02,Debit,Assets,Current Assets - Stock,Balance Sheet
+ACC_0062,Loans & Advances (Asset),Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Assets,Loans & Advances,Balance Sheet
+ACC_0062,Loans & Advances (Asset),May24,May 2024,5,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Assets,Loans & Advances,Balance Sheet
+ACC_0062,Loans & Advances (Asset),Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Assets,Loans & Advances,Balance Sheet
+ACC_0062,Loans & Advances (Asset),Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Assets,Loans & Advances,Balance Sheet
+ACC_0062,Loans & Advances (Asset),Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Assets,Loans & Advances,Balance Sheet
+ACC_0063,Advance Salary,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Assets,Loans & Advances,Balance Sheet
+ACC_0063,Advance Salary,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Assets,Loans & Advances,Balance Sheet
+ACC_0063,Advance Salary,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Assets,Loans & Advances,Balance Sheet
+ACC_0063,Advance Salary,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Assets,Loans & Advances,Balance Sheet
+ACC_0063,Advance Salary,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Assets,Loans & Advances,Balance Sheet
+ACC_0064,Sundry Debtors,Apr24,April 2024,4,Q1,Q1 FY25,2024,5530860.72,0.0,5530860.72,5530860.72,Debit,Assets,Sundry Debtors,Balance Sheet
+ACC_0064,Sundry Debtors,May24,May 2024,5,Q1,Q1 FY25,2024,5838370.07,0.0,5838370.07,5838370.07,Debit,Assets,Sundry Debtors,Balance Sheet
+ACC_0064,Sundry Debtors,Jun24,June 2024,6,Q1,Q1 FY25,2024,7010677.98,0.0,7010677.98,7010677.98,Debit,Assets,Sundry Debtors,Balance Sheet
+ACC_0064,Sundry Debtors,Jul24,July 2024,7,Q2,Q2 FY25,2024,6136527.89,0.0,6136527.89,6136527.89,Debit,Assets,Sundry Debtors,Balance Sheet
+ACC_0064,Sundry Debtors,Aug24,August 2024,8,Q2,Q2 FY25,2024,6441849.57,0.0,6441849.57,6441849.57,Debit,Assets,Sundry Debtors,Balance Sheet
+ACC_0065,Cash-in-Hand,Apr24,April 2024,4,Q1,Q1 FY25,2024,6340.0,0.0,6340.0,6340.0,Debit,Assets,Cash,Balance Sheet
+ACC_0065,Cash-in-Hand,May24,May 2024,5,Q1,Q1 FY25,2024,3439.0,0.0,3439.0,3439.0,Debit,Assets,Cash,Balance Sheet
+ACC_0065,Cash-in-Hand,Jun24,June 2024,6,Q1,Q1 FY25,2024,16232.0,0.0,16232.0,16232.0,Debit,Assets,Cash,Balance Sheet
+ACC_0065,Cash-in-Hand,Jul24,July 2024,7,Q2,Q2 FY25,2024,21372.0,0.0,21372.0,21372.0,Debit,Assets,Cash,Balance Sheet
+ACC_0065,Cash-in-Hand,Aug24,August 2024,8,Q2,Q2 FY25,2024,40701.0,0.0,40701.0,40701.0,Debit,Assets,Cash,Balance Sheet
+ACC_0066,Cash,Apr24,April 2024,4,Q1,Q1 FY25,2024,6340.0,0.0,6340.0,6340.0,Debit,Assets,Cash,Balance Sheet
+ACC_0066,Cash,May24,May 2024,5,Q1,Q1 FY25,2024,3439.0,0.0,3439.0,3439.0,Debit,Assets,Cash,Balance Sheet
+ACC_0066,Cash,Jun24,June 2024,6,Q1,Q1 FY25,2024,16232.0,0.0,16232.0,16232.0,Debit,Assets,Cash,Balance Sheet
+ACC_0066,Cash,Jul24,July 2024,7,Q2,Q2 FY25,2024,21372.0,0.0,21372.0,21372.0,Debit,Assets,Cash,Balance Sheet
+ACC_0066,Cash,Aug24,August 2024,8,Q2,Q2 FY25,2024,40701.0,0.0,40701.0,40701.0,Debit,Assets,Cash,Balance Sheet
+ACC_0067,Bank Accounts,Apr24,April 2024,4,Q1,Q1 FY25,2024,3797240.96,0.0,3797240.96,3797240.96,Debit,Assets,Bank,Balance Sheet
+ACC_0067,Bank Accounts,May24,May 2024,5,Q1,Q1 FY25,2024,4534790.85,0.0,4534790.85,4534790.85,Debit,Assets,Bank,Balance Sheet
+ACC_0067,Bank Accounts,Jun24,June 2024,6,Q1,Q1 FY25,2024,4396515.48,0.0,4396515.48,4396515.48,Debit,Assets,Bank,Balance Sheet
+ACC_0067,Bank Accounts,Jul24,July 2024,7,Q2,Q2 FY25,2024,4195708.07,0.0,4195708.07,4195708.07,Debit,Assets,Bank,Balance Sheet
+ACC_0067,Bank Accounts,Aug24,August 2024,8,Q2,Q2 FY25,2024,5554294.56,0.0,5554294.56,5554294.56,Debit,Assets,Bank,Balance Sheet
+ACC_0068,HDFC BANK,Apr24,April 2024,4,Q1,Q1 FY25,2024,3797240.96,0.0,3797240.96,3797240.96,Debit,Assets,Bank,Balance Sheet
+ACC_0068,HDFC BANK,May24,May 2024,5,Q1,Q1 FY25,2024,4534790.85,0.0,4534790.85,4534790.85,Debit,Assets,Bank,Balance Sheet
+ACC_0068,HDFC BANK,Jun24,June 2024,6,Q1,Q1 FY25,2024,4396515.48,0.0,4396515.48,4396515.48,Debit,Assets,Bank,Balance Sheet
+ACC_0068,HDFC BANK,Jul24,July 2024,7,Q2,Q2 FY25,2024,4195708.07,0.0,4195708.07,4195708.07,Debit,Assets,Bank,Balance Sheet
+ACC_0068,HDFC BANK,Aug24,August 2024,8,Q2,Q2 FY25,2024,5554294.56,0.0,5554294.56,5554294.56,Debit,Assets,Bank,Balance Sheet
+ACC_0069,Accrued Income on FDR,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Assets,Other Current Assets,Balance Sheet
+ACC_0069,Accrued Income on FDR,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Assets,Other Current Assets,Balance Sheet
+ACC_0069,Accrued Income on FDR,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Assets,Other Current Assets,Balance Sheet
+ACC_0069,Accrued Income on FDR,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Assets,Other Current Assets,Balance Sheet
+ACC_0069,Accrued Income on FDR,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Assets,Other Current Assets,Balance Sheet
+ACC_0070,ADVANCE TAX,Apr24,April 2024,4,Q1,Q1 FY25,2024,4382950.0,0.0,4382950.0,4382950.0,Debit,Assets,Tax Assets,Balance Sheet
+ACC_0070,ADVANCE TAX,May24,May 2024,5,Q1,Q1 FY25,2024,4382950.0,0.0,4382950.0,4382950.0,Debit,Assets,Tax Assets,Balance Sheet
+ACC_0070,ADVANCE TAX,Jun24,June 2024,6,Q1,Q1 FY25,2024,5042950.0,0.0,5042950.0,5042950.0,Debit,Assets,Tax Assets,Balance Sheet
+ACC_0070,ADVANCE TAX,Jul24,July 2024,7,Q2,Q2 FY25,2024,5042950.0,0.0,5042950.0,5042950.0,Debit,Assets,Tax Assets,Balance Sheet
+ACC_0070,ADVANCE TAX,Aug24,August 2024,8,Q2,Q2 FY25,2024,5042950.0,0.0,5042950.0,5042950.0,Debit,Assets,Tax Assets,Balance Sheet
+ACC_0071,SECURITY DEPOSIT - IOC APPARELS AND HCG GAS,Apr24,April 2024,4,Q1,Q1 FY25,2024,1252076.0,0.0,1252076.0,1252076.0,Debit,Assets,Other Current Assets,Balance Sheet
+ACC_0071,SECURITY DEPOSIT - IOC APPARELS AND HCG GAS,May24,May 2024,5,Q1,Q1 FY25,2024,1252076.0,0.0,1252076.0,1252076.0,Debit,Assets,Other Current Assets,Balance Sheet
+ACC_0071,SECURITY DEPOSIT - IOC APPARELS AND HCG GAS,Jun24,June 2024,6,Q1,Q1 FY25,2024,1252076.0,0.0,1252076.0,1252076.0,Debit,Assets,Other Current Assets,Balance Sheet
+ACC_0071,SECURITY DEPOSIT - IOC APPARELS AND HCG GAS,Jul24,July 2024,7,Q2,Q2 FY25,2024,1252076.0,0.0,1252076.0,1252076.0,Debit,Assets,Other Current Assets,Balance Sheet
+ACC_0071,SECURITY DEPOSIT - IOC APPARELS AND HCG GAS,Aug24,August 2024,8,Q2,Q2 FY25,2024,1252076.0,0.0,1252076.0,1252076.0,Debit,Assets,Other Current Assets,Balance Sheet
+ACC_0072,TCS,Apr24,April 2024,4,Q1,Q1 FY25,2024,22210.0,0.0,22210.0,22210.0,Debit,Assets,Tax Assets,Balance Sheet
+ACC_0072,TCS,May24,May 2024,5,Q1,Q1 FY25,2024,22831.0,0.0,22831.0,22831.0,Debit,Assets,Tax Assets,Balance Sheet
+ACC_0072,TCS,Jun24,June 2024,6,Q1,Q1 FY25,2024,25343.0,0.0,25343.0,25343.0,Debit,Assets,Tax Assets,Balance Sheet
+ACC_0072,TCS,Jul24,July 2024,7,Q2,Q2 FY25,2024,28402.0,0.0,28402.0,28402.0,Debit,Assets,Tax Assets,Balance Sheet
+ACC_0072,TCS,Aug24,August 2024,8,Q2,Q2 FY25,2024,30941.0,0.0,30941.0,30941.0,Debit,Assets,Tax Assets,Balance Sheet
+ACC_0073,TDS,Apr24,April 2024,4,Q1,Q1 FY25,2024,39193.0,0.0,39193.0,39193.0,Debit,Assets,Tax Assets,Balance Sheet
+ACC_0073,TDS,May24,May 2024,5,Q1,Q1 FY25,2024,39193.0,0.0,39193.0,39193.0,Debit,Assets,Tax Assets,Balance Sheet
+ACC_0073,TDS,Jun24,June 2024,6,Q1,Q1 FY25,2024,39193.0,0.0,39193.0,39193.0,Debit,Assets,Tax Assets,Balance Sheet
+ACC_0073,TDS,Jul24,July 2024,7,Q2,Q2 FY25,2024,39193.0,0.0,39193.0,39193.0,Debit,Assets,Tax Assets,Balance Sheet
+ACC_0073,TDS,Aug24,August 2024,8,Q2,Q2 FY25,2024,39193.0,0.0,39193.0,39193.0,Debit,Assets,Tax Assets,Balance Sheet
+ACC_0074,Sales Accounts,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,5235101.57,-5235101.57,5235101.57,Credit,Revenue,Sales,P&L
+ACC_0074,Sales Accounts,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,6887467.33,-6887467.33,6887467.33,Credit,Revenue,Sales,P&L
+ACC_0074,Sales Accounts,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,7048607.75,-7048607.75,7048607.75,Credit,Revenue,Sales,P&L
+ACC_0074,Sales Accounts,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,7248447.69,-7248447.69,7248447.69,Credit,Revenue,Sales,P&L
+ACC_0074,Sales Accounts,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,7321217.82,-7321217.82,7321217.82,Credit,Revenue,Sales,P&L
+ACC_0075,Un Exempt Sales A/c,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,5235101.57,-5235101.57,5235101.57,Credit,Revenue,Sales,P&L
+ACC_0075,Un Exempt Sales A/c,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,6887467.33,-6887467.33,6887467.33,Credit,Revenue,Sales,P&L
+ACC_0075,Un Exempt Sales A/c,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,7048607.75,-7048607.75,7048607.75,Credit,Revenue,Sales,P&L
+ACC_0075,Un Exempt Sales A/c,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,7248447.69,-7248447.69,7248447.69,Credit,Revenue,Sales,P&L
+ACC_0075,Un Exempt Sales A/c,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,7321217.82,-7321217.82,7321217.82,Credit,Revenue,Sales,P&L
+ACC_0076,Purchase Accounts,Apr24,April 2024,4,Q1,Q1 FY25,2024,2569464.39,47728.0,2521736.39,2521736.39,Debit,Expenses,Purchases,P&L
+ACC_0076,Purchase Accounts,May24,May 2024,5,Q1,Q1 FY25,2024,3535517.34,59346.0,3476171.34,3476171.34,Debit,Expenses,Purchases,P&L
+ACC_0076,Purchase Accounts,Jun24,June 2024,6,Q1,Q1 FY25,2024,2803404.61,47880.0,2755524.61,2755524.61,Debit,Expenses,Purchases,P&L
+ACC_0076,Purchase Accounts,Jul24,July 2024,7,Q2,Q2 FY25,2024,3423999.98,58279.0,3365720.98,3365720.98,Debit,Expenses,Purchases,P&L
+ACC_0076,Purchase Accounts,Aug24,August 2024,8,Q2,Q2 FY25,2024,2895036.88,48378.0,2846658.88,2846658.88,Debit,Expenses,Purchases,P&L
+ACC_0077,DISCOUNT REBATE,Apr24,April 2024,4,Q1,Q1 FY25,2024,253052.89,0.0,253052.89,253052.89,Debit,Expenses,Purchases - Discount,P&L
+ACC_0077,DISCOUNT REBATE,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Purchases - Discount,P&L
+ACC_0077,DISCOUNT REBATE,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Purchases - Discount,P&L
+ACC_0077,DISCOUNT REBATE,Jul24,July 2024,7,Q2,Q2 FY25,2024,5000.0,0.0,5000.0,5000.0,Debit,Expenses,Purchases - Discount,P&L
+ACC_0077,DISCOUNT REBATE,Aug24,August 2024,8,Q2,Q2 FY25,2024,1995.0,0.0,1995.0,1995.0,Debit,Expenses,Purchases - Discount,P&L
+ACC_0078,DISCOUNT RECEIVED,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,47728.0,-47728.0,47728.0,Credit,Revenue,Discount Received,P&L
+ACC_0078,DISCOUNT RECEIVED,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,59346.0,-59346.0,59346.0,Credit,Revenue,Discount Received,P&L
+ACC_0078,DISCOUNT RECEIVED,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,47880.0,-47880.0,47880.0,Credit,Revenue,Discount Received,P&L
+ACC_0078,DISCOUNT RECEIVED,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,58279.0,-58279.0,58279.0,Credit,Revenue,Discount Received,P&L
+ACC_0078,DISCOUNT RECEIVED,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,48378.0,-48378.0,48378.0,Credit,Revenue,Discount Received,P&L
+ACC_0079,PURCHASE GST 18%,Apr24,April 2024,4,Q1,Q1 FY25,2024,21896.1,0.0,21896.1,21896.1,Debit,Expenses,Purchases,P&L
+ACC_0079,PURCHASE GST 18%,May24,May 2024,5,Q1,Q1 FY25,2024,56130.5,0.0,56130.5,56130.5,Debit,Expenses,Purchases,P&L
+ACC_0079,PURCHASE GST 18%,Jun24,June 2024,6,Q1,Q1 FY25,2024,5839.0,0.0,5839.0,5839.0,Debit,Expenses,Purchases,P&L
+ACC_0079,PURCHASE GST 18%,Jul24,July 2024,7,Q2,Q2 FY25,2024,60319.84,0.0,60319.84,60319.84,Debit,Expenses,Purchases,P&L
+ACC_0079,PURCHASE GST 18%,Aug24,August 2024,8,Q2,Q2 FY25,2024,101088.82,0.0,101088.82,101088.82,Debit,Expenses,Purchases,P&L
+ACC_0080,PURCHASE GST 28%,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Purchases,P&L
+ACC_0080,PURCHASE GST 28%,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Purchases,P&L
+ACC_0080,PURCHASE GST 28%,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Purchases,P&L
+ACC_0080,PURCHASE GST 28%,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Purchases,P&L
+ACC_0080,PURCHASE GST 28%,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Purchases,P&L
+ACC_0081,PURCHASE GST 5%,Apr24,April 2024,4,Q1,Q1 FY25,2024,213834.3,0.0,213834.3,213834.3,Debit,Expenses,Purchases,P&L
+ACC_0081,PURCHASE GST 5%,May24,May 2024,5,Q1,Q1 FY25,2024,153532.0,0.0,153532.0,153532.0,Debit,Expenses,Purchases,P&L
+ACC_0081,PURCHASE GST 5%,Jun24,June 2024,6,Q1,Q1 FY25,2024,198454.0,0.0,198454.0,198454.0,Debit,Expenses,Purchases,P&L
+ACC_0081,PURCHASE GST 5%,Jul24,July 2024,7,Q2,Q2 FY25,2024,246592.0,0.0,246592.0,246592.0,Debit,Expenses,Purchases,P&L
+ACC_0081,PURCHASE GST 5%,Aug24,August 2024,8,Q2,Q2 FY25,2024,168733.0,0.0,168733.0,168733.0,Debit,Expenses,Purchases,P&L
+ACC_0082,PURCHASE GST TAX FREE,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Purchases,P&L
+ACC_0082,PURCHASE GST TAX FREE,May24,May 2024,5,Q1,Q1 FY25,2024,3572.0,0.0,3572.0,3572.0,Debit,Expenses,Purchases,P&L
+ACC_0082,PURCHASE GST TAX FREE,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Purchases,P&L
+ACC_0082,PURCHASE GST TAX FREE,Jul24,July 2024,7,Q2,Q2 FY25,2024,4745.0,0.0,4745.0,4745.0,Debit,Expenses,Purchases,P&L
+ACC_0082,PURCHASE GST TAX FREE,Aug24,August 2024,8,Q2,Q2 FY25,2024,11222.0,0.0,11222.0,11222.0,Debit,Expenses,Purchases,P&L
+ACC_0083,PURCHASE IGST 12%,Apr24,April 2024,4,Q1,Q1 FY25,2024,97937.5,0.0,97937.5,97937.5,Debit,Expenses,Purchases,P&L
+ACC_0083,PURCHASE IGST 12%,May24,May 2024,5,Q1,Q1 FY25,2024,101387.5,0.0,101387.5,101387.5,Debit,Expenses,Purchases,P&L
+ACC_0083,PURCHASE IGST 12%,Jun24,June 2024,6,Q1,Q1 FY25,2024,127332.37,0.0,127332.37,127332.37,Debit,Expenses,Purchases,P&L
+ACC_0083,PURCHASE IGST 12%,Jul24,July 2024,7,Q2,Q2 FY25,2024,53225.0,0.0,53225.0,53225.0,Debit,Expenses,Purchases,P&L
+ACC_0083,PURCHASE IGST 12%,Aug24,August 2024,8,Q2,Q2 FY25,2024,59002.0,0.0,59002.0,59002.0,Debit,Expenses,Purchases,P&L
+ACC_0084,PURCHASE IGST 18%,Apr24,April 2024,4,Q1,Q1 FY25,2024,38600.0,0.0,38600.0,38600.0,Debit,Expenses,Purchases,P&L
+ACC_0084,PURCHASE IGST 18%,May24,May 2024,5,Q1,Q1 FY25,2024,253595.34,0.0,253595.34,253595.34,Debit,Expenses,Purchases,P&L
+ACC_0084,PURCHASE IGST 18%,Jun24,June 2024,6,Q1,Q1 FY25,2024,77779.24,0.0,77779.24,77779.24,Debit,Expenses,Purchases,P&L
+ACC_0084,PURCHASE IGST 18%,Jul24,July 2024,7,Q2,Q2 FY25,2024,119618.14,0.0,119618.14,119618.14,Debit,Expenses,Purchases,P&L
+ACC_0084,PURCHASE IGST 18%,Aug24,August 2024,8,Q2,Q2 FY25,2024,134096.06,0.0,134096.06,134096.06,Debit,Expenses,Purchases,P&L
+ACC_0085,PURCHASE IGST 5%,Apr24,April 2024,4,Q1,Q1 FY25,2024,1944143.6,0.0,1944143.6,1944143.6,Debit,Expenses,Purchases,P&L
+ACC_0085,PURCHASE IGST 5%,May24,May 2024,5,Q1,Q1 FY25,2024,2967300.0,0.0,2967300.0,2967300.0,Debit,Expenses,Purchases,P&L
+ACC_0085,PURCHASE IGST 5%,Jun24,June 2024,6,Q1,Q1 FY25,2024,2394000.0,0.0,2394000.0,2394000.0,Debit,Expenses,Purchases,P&L
+ACC_0085,PURCHASE IGST 5%,Jul24,July 2024,7,Q2,Q2 FY25,2024,2934500.0,0.0,2934500.0,2934500.0,Debit,Expenses,Purchases,P&L
+ACC_0085,PURCHASE IGST 5%,Aug24,August 2024,8,Q2,Q2 FY25,2024,2418900.0,0.0,2418900.0,2418900.0,Debit,Expenses,Purchases,P&L
+ACC_0086,Expenses (Direct) (Direct Expenses),Apr24,April 2024,4,Q1,Q1 FY25,2024,1550349.25,0.0,1550349.25,1550349.25,Debit,Expenses,Direct Expenses,P&L
+ACC_0086,Expenses (Direct) (Direct Expenses),May24,May 2024,5,Q1,Q1 FY25,2024,1763851.0,0.0,1763851.0,1763851.0,Debit,Expenses,Direct Expenses,P&L
+ACC_0086,Expenses (Direct) (Direct Expenses),Jun24,June 2024,6,Q1,Q1 FY25,2024,1685180.0,0.0,1685180.0,1685180.0,Debit,Expenses,Direct Expenses,P&L
+ACC_0086,Expenses (Direct) (Direct Expenses),Jul24,July 2024,7,Q2,Q2 FY25,2024,1863157.29,0.0,1863157.29,1863157.29,Debit,Expenses,Direct Expenses,P&L
+ACC_0086,Expenses (Direct) (Direct Expenses),Aug24,August 2024,8,Q2,Q2 FY25,2024,1792821.86,0.0,1792821.86,1792821.86,Debit,Expenses,Direct Expenses,P&L
+ACC_0087,DELIVERY CHARGES,Apr24,April 2024,4,Q1,Q1 FY25,2024,63575.0,0.0,63575.0,63575.0,Debit,Expenses,Direct Expenses,P&L
+ACC_0087,DELIVERY CHARGES,May24,May 2024,5,Q1,Q1 FY25,2024,65065.0,0.0,65065.0,65065.0,Debit,Expenses,Direct Expenses,P&L
+ACC_0087,DELIVERY CHARGES,Jun24,June 2024,6,Q1,Q1 FY25,2024,102460.0,0.0,102460.0,102460.0,Debit,Expenses,Direct Expenses,P&L
+ACC_0087,DELIVERY CHARGES,Jul24,July 2024,7,Q2,Q2 FY25,2024,89415.0,0.0,89415.0,89415.0,Debit,Expenses,Direct Expenses,P&L
+ACC_0087,DELIVERY CHARGES,Aug24,August 2024,8,Q2,Q2 FY25,2024,44460.0,0.0,44460.0,44460.0,Debit,Expenses,Direct Expenses,P&L
+ACC_0088,Electricity Expense,Apr24,April 2024,4,Q1,Q1 FY25,2024,79208.0,0.0,79208.0,79208.0,Debit,Expenses,Direct Expenses,P&L
+ACC_0088,Electricity Expense,May24,May 2024,5,Q1,Q1 FY25,2024,196393.0,0.0,196393.0,196393.0,Debit,Expenses,Direct Expenses,P&L
+ACC_0088,Electricity Expense,Jun24,June 2024,6,Q1,Q1 FY25,2024,96710.0,0.0,96710.0,96710.0,Debit,Expenses,Direct Expenses,P&L
+ACC_0088,Electricity Expense,Jul24,July 2024,7,Q2,Q2 FY25,2024,85111.0,0.0,85111.0,85111.0,Debit,Expenses,Direct Expenses,P&L
+ACC_0088,Electricity Expense,Aug24,August 2024,8,Q2,Q2 FY25,2024,108352.0,0.0,108352.0,108352.0,Debit,Expenses,Direct Expenses,P&L
+ACC_0089,FREIGHT AND CARTAGE,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Direct Expenses,P&L
+ACC_0089,FREIGHT AND CARTAGE,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Direct Expenses,P&L
+ACC_0089,FREIGHT AND CARTAGE,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Direct Expenses,P&L
+ACC_0089,FREIGHT AND CARTAGE,Jul24,July 2024,7,Q2,Q2 FY25,2024,600.0,0.0,600.0,600.0,Debit,Expenses,Direct Expenses,P&L
+ACC_0089,FREIGHT AND CARTAGE,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Direct Expenses,P&L
+ACC_0090,FREIGHT AND CARTAGE IGST 12%,Apr24,April 2024,4,Q1,Q1 FY25,2024,179700.0,0.0,179700.0,179700.0,Debit,Expenses,Direct Expenses,P&L
+ACC_0090,FREIGHT AND CARTAGE IGST 12%,May24,May 2024,5,Q1,Q1 FY25,2024,211290.0,0.0,211290.0,211290.0,Debit,Expenses,Direct Expenses,P&L
+ACC_0090,FREIGHT AND CARTAGE IGST 12%,Jun24,June 2024,6,Q1,Q1 FY25,2024,235700.0,0.0,235700.0,235700.0,Debit,Expenses,Direct Expenses,P&L
+ACC_0090,FREIGHT AND CARTAGE IGST 12%,Jul24,July 2024,7,Q2,Q2 FY25,2024,251300.0,0.0,251300.0,251300.0,Debit,Expenses,Direct Expenses,P&L
+ACC_0090,FREIGHT AND CARTAGE IGST 12%,Aug24,August 2024,8,Q2,Q2 FY25,2024,273400.0,0.0,273400.0,273400.0,Debit,Expenses,Direct Expenses,P&L
+ACC_0091,GAS EXPENSES,Apr24,April 2024,4,Q1,Q1 FY25,2024,792179.0,0.0,792179.0,792179.0,Debit,Expenses,Direct Expenses,P&L
+ACC_0091,GAS EXPENSES,May24,May 2024,5,Q1,Q1 FY25,2024,786922.0,0.0,786922.0,786922.0,Debit,Expenses,Direct Expenses,P&L
+ACC_0091,GAS EXPENSES,Jun24,June 2024,6,Q1,Q1 FY25,2024,747439.0,0.0,747439.0,747439.0,Debit,Expenses,Direct Expenses,P&L
+ACC_0091,GAS EXPENSES,Jul24,July 2024,7,Q2,Q2 FY25,2024,923927.0,0.0,923927.0,923927.0,Debit,Expenses,Direct Expenses,P&L
+ACC_0091,GAS EXPENSES,Aug24,August 2024,8,Q2,Q2 FY25,2024,829188.0,0.0,829188.0,829188.0,Debit,Expenses,Direct Expenses,P&L
+ACC_0092,GAS EXPENSES IGST 18%,Apr24,April 2024,4,Q1,Q1 FY25,2024,18675.25,0.0,18675.25,18675.25,Debit,Expenses,Direct Expenses,P&L
+ACC_0092,GAS EXPENSES IGST 18%,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Direct Expenses,P&L
+ACC_0092,GAS EXPENSES IGST 18%,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Direct Expenses,P&L
+ACC_0092,GAS EXPENSES IGST 18%,Jul24,July 2024,7,Q2,Q2 FY25,2024,13937.29,0.0,13937.29,13937.29,Debit,Expenses,Direct Expenses,P&L
+ACC_0092,GAS EXPENSES IGST 18%,Aug24,August 2024,8,Q2,Q2 FY25,2024,20989.86,0.0,20989.86,20989.86,Debit,Expenses,Direct Expenses,P&L
+ACC_0093,HR SERVICES (MANPOWER SERVICES) GST 18%,Apr24,April 2024,4,Q1,Q1 FY25,2024,397362.0,0.0,397362.0,397362.0,Debit,Expenses,Direct Expenses,P&L
+ACC_0093,HR SERVICES (MANPOWER SERVICES) GST 18%,May24,May 2024,5,Q1,Q1 FY25,2024,485281.0,0.0,485281.0,485281.0,Debit,Expenses,Direct Expenses,P&L
+ACC_0093,HR SERVICES (MANPOWER SERVICES) GST 18%,Jun24,June 2024,6,Q1,Q1 FY25,2024,485381.0,0.0,485381.0,485381.0,Debit,Expenses,Direct Expenses,P&L
+ACC_0093,HR SERVICES (MANPOWER SERVICES) GST 18%,Jul24,July 2024,7,Q2,Q2 FY25,2024,476867.0,0.0,476867.0,476867.0,Debit,Expenses,Direct Expenses,P&L
+ACC_0093,HR SERVICES (MANPOWER SERVICES) GST 18%,Aug24,August 2024,8,Q2,Q2 FY25,2024,501747.0,0.0,501747.0,501747.0,Debit,Expenses,Direct Expenses,P&L
+ACC_0094,Labour Charges  (Atta Unload),Apr24,April 2024,4,Q1,Q1 FY25,2024,10150.0,0.0,10150.0,10150.0,Debit,Expenses,Direct Expenses,P&L
+ACC_0094,Labour Charges  (Atta Unload),May24,May 2024,5,Q1,Q1 FY25,2024,10400.0,0.0,10400.0,10400.0,Debit,Expenses,Direct Expenses,P&L
+ACC_0094,Labour Charges  (Atta Unload),Jun24,June 2024,6,Q1,Q1 FY25,2024,7030.0,0.0,7030.0,7030.0,Debit,Expenses,Direct Expenses,P&L
+ACC_0094,Labour Charges  (Atta Unload),Jul24,July 2024,7,Q2,Q2 FY25,2024,10650.0,0.0,10650.0,10650.0,Debit,Expenses,Direct Expenses,P&L
+ACC_0094,Labour Charges  (Atta Unload),Aug24,August 2024,8,Q2,Q2 FY25,2024,9475.0,0.0,9475.0,9475.0,Debit,Expenses,Direct Expenses,P&L
+ACC_0095,Labour on hire,Apr24,April 2024,4,Q1,Q1 FY25,2024,9500.0,0.0,9500.0,9500.0,Debit,Expenses,Direct Expenses,P&L
+ACC_0095,Labour on hire,May24,May 2024,5,Q1,Q1 FY25,2024,8500.0,0.0,8500.0,8500.0,Debit,Expenses,Direct Expenses,P&L
+ACC_0095,Labour on hire,Jun24,June 2024,6,Q1,Q1 FY25,2024,10460.0,0.0,10460.0,10460.0,Debit,Expenses,Direct Expenses,P&L
+ACC_0095,Labour on hire,Jul24,July 2024,7,Q2,Q2 FY25,2024,11350.0,0.0,11350.0,11350.0,Debit,Expenses,Direct Expenses,P&L
+ACC_0095,Labour on hire,Aug24,August 2024,8,Q2,Q2 FY25,2024,5210.0,0.0,5210.0,5210.0,Debit,Expenses,Direct Expenses,P&L
+ACC_0096,Income (Indirect) (Indirect Incomes),Apr24,April 2024,4,Q1,Q1 FY25,2024,625.0,800.0,-175.0,175.0,Credit,Revenue,Indirect Income,P&L
+ACC_0096,Income (Indirect) (Indirect Incomes),May24,May 2024,5,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Revenue,Indirect Income,P&L
+ACC_0096,Income (Indirect) (Indirect Incomes),Jun24,June 2024,6,Q1,Q1 FY25,2024,312.5,7800.0,-7487.5,7487.5,Credit,Revenue,Indirect Income,P&L
+ACC_0096,Income (Indirect) (Indirect Incomes),Jul24,July 2024,7,Q2,Q2 FY25,2024,312.5,13000.0,-12687.5,12687.5,Credit,Revenue,Indirect Income,P&L
+ACC_0096,Income (Indirect) (Indirect Incomes),Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,22050.0,-22050.0,22050.0,Credit,Revenue,Indirect Income,P&L
+ACC_0097,Cartage Charges,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,800.0,-800.0,800.0,Credit,Revenue,Indirect Income,P&L
+ACC_0097,Cartage Charges,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Revenue,Indirect Income,P&L
+ACC_0097,Cartage Charges,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,7800.0,-7800.0,7800.0,Credit,Revenue,Indirect Income,P&L
+ACC_0097,Cartage Charges,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,13000.0,-13000.0,13000.0,Credit,Revenue,Indirect Income,P&L
+ACC_0097,Cartage Charges,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,22050.0,-22050.0,22050.0,Credit,Revenue,Indirect Income,P&L
+ACC_0098,Cash Discount,Apr24,April 2024,4,Q1,Q1 FY25,2024,625.0,0.0,625.0,625.0,Debit,Revenue,Indirect Income,P&L
+ACC_0098,Cash Discount,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Revenue,Indirect Income,P&L
+ACC_0098,Cash Discount,Jun24,June 2024,6,Q1,Q1 FY25,2024,312.5,0.0,312.5,312.5,Debit,Revenue,Indirect Income,P&L
+ACC_0098,Cash Discount,Jul24,July 2024,7,Q2,Q2 FY25,2024,312.5,0.0,312.5,312.5,Debit,Revenue,Indirect Income,P&L
+ACC_0098,Cash Discount,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Revenue,Indirect Income,P&L
+ACC_0099,Interest Income,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Revenue,Indirect Income,P&L
+ACC_0099,Interest Income,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Revenue,Indirect Income,P&L
+ACC_0099,Interest Income,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Revenue,Indirect Income,P&L
+ACC_0099,Interest Income,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Revenue,Indirect Income,P&L
+ACC_0099,Interest Income,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Revenue,Indirect Income,P&L
+ACC_0100,Interest on FDR- 50301072325452,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Revenue,Indirect Income,P&L
+ACC_0100,Interest on FDR- 50301072325452,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Revenue,Indirect Income,P&L
+ACC_0100,Interest on FDR- 50301072325452,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Revenue,Indirect Income,P&L
+ACC_0100,Interest on FDR- 50301072325452,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Revenue,Indirect Income,P&L
+ACC_0100,Interest on FDR- 50301072325452,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Revenue,Indirect Income,P&L
+ACC_0101,Interest on Income Tax Refund,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Revenue,Indirect Income,P&L
+ACC_0101,Interest on Income Tax Refund,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Revenue,Indirect Income,P&L
+ACC_0101,Interest on Income Tax Refund,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Revenue,Indirect Income,P&L
+ACC_0101,Interest on Income Tax Refund,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Revenue,Indirect Income,P&L
+ACC_0101,Interest on Income Tax Refund,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Revenue,Indirect Income,P&L
+ACC_0102,Misc Receipt,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Revenue,Indirect Income,P&L
+ACC_0102,Misc Receipt,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Revenue,Indirect Income,P&L
+ACC_0102,Misc Receipt,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Revenue,Indirect Income,P&L
+ACC_0102,Misc Receipt,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Revenue,Indirect Income,P&L
+ACC_0102,Misc Receipt,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Revenue,Indirect Income,P&L
+ACC_0103,Expenses (Indirect) (Indirect Expenses),Apr24,April 2024,4,Q1,Q1 FY25,2024,1171651.44,0.0,1171651.44,1171651.44,Debit,Expenses,Indirect Expenses,P&L
+ACC_0103,Expenses (Indirect) (Indirect Expenses),May24,May 2024,5,Q1,Q1 FY25,2024,1053578.39,0.0,1053578.39,1053578.39,Debit,Expenses,Indirect Expenses,P&L
+ACC_0103,Expenses (Indirect) (Indirect Expenses),Jun24,June 2024,6,Q1,Q1 FY25,2024,1101648.54,70.12,1101578.42,1101578.42,Debit,Expenses,Indirect Expenses,P&L
+ACC_0103,Expenses (Indirect) (Indirect Expenses),Jul24,July 2024,7,Q2,Q2 FY25,2024,1079147.29,73.06,1079074.23,1079074.23,Debit,Expenses,Indirect Expenses,P&L
+ACC_0103,Expenses (Indirect) (Indirect Expenses),Aug24,August 2024,8,Q2,Q2 FY25,2024,1168544.91,1331.23,1167213.68,1167213.68,Debit,Expenses,Indirect Expenses,P&L
+ACC_0104,Employee Expenses,Apr24,April 2024,4,Q1,Q1 FY25,2024,488610.0,0.0,488610.0,488610.0,Debit,Expenses,Employee Expenses,P&L
+ACC_0104,Employee Expenses,May24,May 2024,5,Q1,Q1 FY25,2024,494004.0,0.0,494004.0,494004.0,Debit,Expenses,Employee Expenses,P&L
+ACC_0104,Employee Expenses,Jun24,June 2024,6,Q1,Q1 FY25,2024,478564.0,0.0,478564.0,478564.0,Debit,Expenses,Employee Expenses,P&L
+ACC_0104,Employee Expenses,Jul24,July 2024,7,Q2,Q2 FY25,2024,454466.0,0.0,454466.0,454466.0,Debit,Expenses,Employee Expenses,P&L
+ACC_0104,Employee Expenses,Aug24,August 2024,8,Q2,Q2 FY25,2024,485255.0,0.0,485255.0,485255.0,Debit,Expenses,Employee Expenses,P&L
+ACC_0105,ADMINISTRATION CHARGES,Apr24,April 2024,4,Q1,Q1 FY25,2024,1017.0,0.0,1017.0,1017.0,Debit,Expenses,Employee Expenses,P&L
+ACC_0105,ADMINISTRATION CHARGES,May24,May 2024,5,Q1,Q1 FY25,2024,1028.0,0.0,1028.0,1028.0,Debit,Expenses,Employee Expenses,P&L
+ACC_0105,ADMINISTRATION CHARGES,Jun24,June 2024,6,Q1,Q1 FY25,2024,974.0,0.0,974.0,974.0,Debit,Expenses,Employee Expenses,P&L
+ACC_0105,ADMINISTRATION CHARGES,Jul24,July 2024,7,Q2,Q2 FY25,2024,871.0,0.0,871.0,871.0,Debit,Expenses,Employee Expenses,P&L
+ACC_0105,ADMINISTRATION CHARGES,Aug24,August 2024,8,Q2,Q2 FY25,2024,977.0,0.0,977.0,977.0,Debit,Expenses,Employee Expenses,P&L
+ACC_0106,DIWALI BONUS,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Employee Expenses,P&L
+ACC_0106,DIWALI BONUS,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Employee Expenses,P&L
+ACC_0106,DIWALI BONUS,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Employee Expenses,P&L
+ACC_0106,DIWALI BONUS,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Employee Expenses,P&L
+ACC_0106,DIWALI BONUS,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Employee Expenses,P&L
+ACC_0107,EDLI Charges,Apr24,April 2024,4,Q1,Q1 FY25,2024,1017.0,0.0,1017.0,1017.0,Debit,Expenses,Employee Expenses,P&L
+ACC_0107,EDLI Charges,May24,May 2024,5,Q1,Q1 FY25,2024,1028.0,0.0,1028.0,1028.0,Debit,Expenses,Employee Expenses,P&L
+ACC_0107,EDLI Charges,Jun24,June 2024,6,Q1,Q1 FY25,2024,974.0,0.0,974.0,974.0,Debit,Expenses,Employee Expenses,P&L
+ACC_0107,EDLI Charges,Jul24,July 2024,7,Q2,Q2 FY25,2024,871.0,0.0,871.0,871.0,Debit,Expenses,Employee Expenses,P&L
+ACC_0107,EDLI Charges,Aug24,August 2024,8,Q2,Q2 FY25,2024,977.0,0.0,977.0,977.0,Debit,Expenses,Employee Expenses,P&L
+ACC_0108,EPF,Apr24,April 2024,4,Q1,Q1 FY25,2024,24408.0,0.0,24408.0,24408.0,Debit,Expenses,Employee Expenses,P&L
+ACC_0108,EPF,May24,May 2024,5,Q1,Q1 FY25,2024,24672.0,0.0,24672.0,24672.0,Debit,Expenses,Employee Expenses,P&L
+ACC_0108,EPF,Jun24,June 2024,6,Q1,Q1 FY25,2024,23379.0,0.0,23379.0,23379.0,Debit,Expenses,Employee Expenses,P&L
+ACC_0108,EPF,Jul24,July 2024,7,Q2,Q2 FY25,2024,20897.0,0.0,20897.0,20897.0,Debit,Expenses,Employee Expenses,P&L
+ACC_0108,EPF,Aug24,August 2024,8,Q2,Q2 FY25,2024,23443.0,0.0,23443.0,23443.0,Debit,Expenses,Employee Expenses,P&L
+ACC_0109,ESIC,Apr24,April 2024,4,Q1,Q1 FY25,2024,7142.0,0.0,7142.0,7142.0,Debit,Expenses,Employee Expenses,P&L
+ACC_0109,ESIC,May24,May 2024,5,Q1,Q1 FY25,2024,7258.0,0.0,7258.0,7258.0,Debit,Expenses,Employee Expenses,P&L
+ACC_0109,ESIC,Jun24,June 2024,6,Q1,Q1 FY25,2024,6758.0,0.0,6758.0,6758.0,Debit,Expenses,Employee Expenses,P&L
+ACC_0109,ESIC,Jul24,July 2024,7,Q2,Q2 FY25,2024,6137.0,0.0,6137.0,6137.0,Debit,Expenses,Employee Expenses,P&L
+ACC_0109,ESIC,Aug24,August 2024,8,Q2,Q2 FY25,2024,7000.0,0.0,7000.0,7000.0,Debit,Expenses,Employee Expenses,P&L
+ACC_0110,LWF,Apr24,April 2024,4,Q1,Q1 FY25,2024,611.0,0.0,611.0,611.0,Debit,Expenses,Employee Expenses,P&L
+ACC_0110,LWF,May24,May 2024,5,Q1,Q1 FY25,2024,626.0,0.0,626.0,626.0,Debit,Expenses,Employee Expenses,P&L
+ACC_0110,LWF,Jun24,June 2024,6,Q1,Q1 FY25,2024,598.0,0.0,598.0,598.0,Debit,Expenses,Employee Expenses,P&L
+ACC_0110,LWF,Jul24,July 2024,7,Q2,Q2 FY25,2024,545.0,0.0,545.0,545.0,Debit,Expenses,Employee Expenses,P&L
+ACC_0110,LWF,Aug24,August 2024,8,Q2,Q2 FY25,2024,590.0,0.0,590.0,590.0,Debit,Expenses,Employee Expenses,P&L
+ACC_0111,Recruitment Expenses,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Employee Expenses,P&L
+ACC_0111,Recruitment Expenses,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Employee Expenses,P&L
+ACC_0111,Recruitment Expenses,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Employee Expenses,P&L
+ACC_0111,Recruitment Expenses,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Employee Expenses,P&L
+ACC_0111,Recruitment Expenses,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Employee Expenses,P&L
+ACC_0112,SALARY,Apr24,April 2024,4,Q1,Q1 FY25,2024,454415.0,0.0,454415.0,454415.0,Debit,Expenses,Employee Expenses,P&L
+ACC_0112,SALARY,May24,May 2024,5,Q1,Q1 FY25,2024,459392.0,0.0,459392.0,459392.0,Debit,Expenses,Employee Expenses,P&L
+ACC_0112,SALARY,Jun24,June 2024,6,Q1,Q1 FY25,2024,445881.0,0.0,445881.0,445881.0,Debit,Expenses,Employee Expenses,P&L
+ACC_0112,SALARY,Jul24,July 2024,7,Q2,Q2 FY25,2024,425145.0,0.0,425145.0,425145.0,Debit,Expenses,Employee Expenses,P&L
+ACC_0112,SALARY,Aug24,August 2024,8,Q2,Q2 FY25,2024,452268.0,0.0,452268.0,452268.0,Debit,Expenses,Employee Expenses,P&L
+ACC_0113,STAFF WELFARE,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Employee Expenses,P&L
+ACC_0113,STAFF WELFARE,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Employee Expenses,P&L
+ACC_0113,STAFF WELFARE,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Employee Expenses,P&L
+ACC_0113,STAFF WELFARE,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Employee Expenses,P&L
+ACC_0113,STAFF WELFARE,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Employee Expenses,P&L
+ACC_0114,ACCOUNTING CHARGES,Apr24,April 2024,4,Q1,Q1 FY25,2024,38500.0,0.0,38500.0,38500.0,Debit,Expenses,Admin & Professional,P&L
+ACC_0114,ACCOUNTING CHARGES,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Admin & Professional,P&L
+ACC_0114,ACCOUNTING CHARGES,Jun24,June 2024,6,Q1,Q1 FY25,2024,28000.0,0.0,28000.0,28000.0,Debit,Expenses,Admin & Professional,P&L
+ACC_0114,ACCOUNTING CHARGES,Jul24,July 2024,7,Q2,Q2 FY25,2024,28000.0,0.0,28000.0,28000.0,Debit,Expenses,Admin & Professional,P&L
+ACC_0114,ACCOUNTING CHARGES,Aug24,August 2024,8,Q2,Q2 FY25,2024,28000.0,0.0,28000.0,28000.0,Debit,Expenses,Admin & Professional,P&L
+ACC_0115,AUDIT FEES,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Admin & Professional,P&L
+ACC_0115,AUDIT FEES,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Admin & Professional,P&L
+ACC_0115,AUDIT FEES,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Admin & Professional,P&L
+ACC_0115,AUDIT FEES,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Admin & Professional,P&L
+ACC_0115,AUDIT FEES,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Admin & Professional,P&L
+ACC_0116,BAD DEBTS,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Other Expenses,P&L
+ACC_0116,BAD DEBTS,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Other Expenses,P&L
+ACC_0116,BAD DEBTS,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Other Expenses,P&L
+ACC_0116,BAD DEBTS,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Other Expenses,P&L
+ACC_0116,BAD DEBTS,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Other Expenses,P&L
+ACC_0117,BANK CHARGES,Apr24,April 2024,4,Q1,Q1 FY25,2024,76.82,0.0,76.82,76.82,Debit,Expenses,Finance Charges,P&L
+ACC_0117,BANK CHARGES,May24,May 2024,5,Q1,Q1 FY25,2024,110.15,0.0,110.15,110.15,Debit,Expenses,Finance Charges,P&L
+ACC_0117,BANK CHARGES,Jun24,June 2024,6,Q1,Q1 FY25,2024,312.58,0.0,312.58,312.58,Debit,Expenses,Finance Charges,P&L
+ACC_0117,BANK CHARGES,Jul24,July 2024,7,Q2,Q2 FY25,2024,76.92,0.0,76.92,76.92,Debit,Expenses,Finance Charges,P&L
+ACC_0117,BANK CHARGES,Aug24,August 2024,8,Q2,Q2 FY25,2024,110.39,0.0,110.39,110.39,Debit,Expenses,Finance Charges,P&L
+ACC_0118,BUSINESS PROMOTION GST18%,Apr24,April 2024,4,Q1,Q1 FY25,2024,828.0,0.0,828.0,828.0,Debit,Expenses,Marketing & Promotion,P&L
+ACC_0118,BUSINESS PROMOTION GST18%,May24,May 2024,5,Q1,Q1 FY25,2024,828.0,0.0,828.0,828.0,Debit,Expenses,Marketing & Promotion,P&L
+ACC_0118,BUSINESS PROMOTION GST18%,Jun24,June 2024,6,Q1,Q1 FY25,2024,805.01,0.0,805.01,805.01,Debit,Expenses,Marketing & Promotion,P&L
+ACC_0118,BUSINESS PROMOTION GST18%,Jul24,July 2024,7,Q2,Q2 FY25,2024,690.06,0.0,690.06,690.06,Debit,Expenses,Marketing & Promotion,P&L
+ACC_0118,BUSINESS PROMOTION GST18%,Aug24,August 2024,8,Q2,Q2 FY25,2024,690.06,0.0,690.06,690.06,Debit,Expenses,Marketing & Promotion,P&L
+ACC_0119,COMPUTER REPAIR AND MANITANCE,Apr24,April 2024,4,Q1,Q1 FY25,2024,600.0,0.0,600.0,600.0,Debit,Expenses,Repairs & Maintenance,P&L
+ACC_0119,COMPUTER REPAIR AND MANITANCE,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Repairs & Maintenance,P&L
+ACC_0119,COMPUTER REPAIR AND MANITANCE,Jun24,June 2024,6,Q1,Q1 FY25,2024,50.0,0.0,50.0,50.0,Debit,Expenses,Repairs & Maintenance,P&L
+ACC_0119,COMPUTER REPAIR AND MANITANCE,Jul24,July 2024,7,Q2,Q2 FY25,2024,620.0,0.0,620.0,620.0,Debit,Expenses,Repairs & Maintenance,P&L
+ACC_0119,COMPUTER REPAIR AND MANITANCE,Aug24,August 2024,8,Q2,Q2 FY25,2024,12661.02,0.0,12661.02,12661.02,Debit,Expenses,Repairs & Maintenance,P&L
+ACC_0120,DEPRECIATION,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Depreciation,P&L
+ACC_0120,DEPRECIATION,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Depreciation,P&L
+ACC_0120,DEPRECIATION,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Depreciation,P&L
+ACC_0120,DEPRECIATION,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Depreciation,P&L
+ACC_0120,DEPRECIATION,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Depreciation,P&L
+ACC_0121,FACTORY REPAIR & MAINTANCE,Apr24,April 2024,4,Q1,Q1 FY25,2024,490.0,0.0,490.0,490.0,Debit,Expenses,Repairs & Maintenance,P&L
+ACC_0121,FACTORY REPAIR & MAINTANCE,May24,May 2024,5,Q1,Q1 FY25,2024,3980.0,0.0,3980.0,3980.0,Debit,Expenses,Repairs & Maintenance,P&L
+ACC_0121,FACTORY REPAIR & MAINTANCE,Jun24,June 2024,6,Q1,Q1 FY25,2024,6530.0,0.0,6530.0,6530.0,Debit,Expenses,Repairs & Maintenance,P&L
+ACC_0121,FACTORY REPAIR & MAINTANCE,Jul24,July 2024,7,Q2,Q2 FY25,2024,6395.0,0.0,6395.0,6395.0,Debit,Expenses,Repairs & Maintenance,P&L
+ACC_0121,FACTORY REPAIR & MAINTANCE,Aug24,August 2024,8,Q2,Q2 FY25,2024,540.0,0.0,540.0,540.0,Debit,Expenses,Repairs & Maintenance,P&L
+ACC_0122,Fees & Subscription,Apr24,April 2024,4,Q1,Q1 FY25,2024,8000.0,0.0,8000.0,8000.0,Debit,Expenses,Admin & Professional,P&L
+ACC_0122,Fees & Subscription,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Admin & Professional,P&L
+ACC_0122,Fees & Subscription,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Admin & Professional,P&L
+ACC_0122,Fees & Subscription,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Admin & Professional,P&L
+ACC_0122,Fees & Subscription,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Admin & Professional,P&L
+ACC_0123,FUEL EXEPENSES,Apr24,April 2024,4,Q1,Q1 FY25,2024,8501.0,0.0,8501.0,8501.0,Debit,Expenses,Vehicle & Travel,P&L
+ACC_0123,FUEL EXEPENSES,May24,May 2024,5,Q1,Q1 FY25,2024,14329.0,0.0,14329.0,14329.0,Debit,Expenses,Vehicle & Travel,P&L
+ACC_0123,FUEL EXEPENSES,Jun24,June 2024,6,Q1,Q1 FY25,2024,29826.0,0.0,29826.0,29826.0,Debit,Expenses,Vehicle & Travel,P&L
+ACC_0123,FUEL EXEPENSES,Jul24,July 2024,7,Q2,Q2 FY25,2024,21591.0,0.0,21591.0,21591.0,Debit,Expenses,Vehicle & Travel,P&L
+ACC_0123,FUEL EXEPENSES,Aug24,August 2024,8,Q2,Q2 FY25,2024,19253.0,0.0,19253.0,19253.0,Debit,Expenses,Vehicle & Travel,P&L
+ACC_0124,GENERAL EXPENSES,Apr24,April 2024,4,Q1,Q1 FY25,2024,2000.0,0.0,2000.0,2000.0,Debit,Expenses,Other Expenses,P&L
+ACC_0124,GENERAL EXPENSES,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Other Expenses,P&L
+ACC_0124,GENERAL EXPENSES,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Other Expenses,P&L
+ACC_0124,GENERAL EXPENSES,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Other Expenses,P&L
+ACC_0124,GENERAL EXPENSES,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Other Expenses,P&L
+ACC_0125,Income Tax Expenses,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Tax Expenses,P&L
+ACC_0125,Income Tax Expenses,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Tax Expenses,P&L
+ACC_0125,Income Tax Expenses,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Tax Expenses,P&L
+ACC_0125,Income Tax Expenses,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Tax Expenses,P&L
+ACC_0125,Income Tax Expenses,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Tax Expenses,P&L
+ACC_0126,INSURANCE,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Insurance,P&L
+ACC_0126,INSURANCE,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Insurance,P&L
+ACC_0126,INSURANCE,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Insurance,P&L
+ACC_0126,INSURANCE,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Insurance,P&L
+ACC_0126,INSURANCE,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Insurance,P&L
+ACC_0127,Interest on TDS Payable,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Finance Charges,P&L
+ACC_0127,Interest on TDS Payable,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Finance Charges,P&L
+ACC_0127,Interest on TDS Payable,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Finance Charges,P&L
+ACC_0127,Interest on TDS Payable,Jul24,July 2024,7,Q2,Q2 FY25,2024,54.0,0.0,54.0,54.0,Debit,Expenses,Finance Charges,P&L
+ACC_0127,Interest on TDS Payable,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Finance Charges,P&L
+ACC_0128,LICENCE,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Admin & Professional,P&L
+ACC_0128,LICENCE,May24,May 2024,5,Q1,Q1 FY25,2024,18009.44,0.0,18009.44,18009.44,Debit,Expenses,Admin & Professional,P&L
+ACC_0128,LICENCE,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Admin & Professional,P&L
+ACC_0128,LICENCE,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Admin & Professional,P&L
+ACC_0128,LICENCE,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Admin & Professional,P&L
+ACC_0129,MACHINERY PARTS IGST 18%,Apr24,April 2024,4,Q1,Q1 FY25,2024,254200.0,0.0,254200.0,254200.0,Debit,Expenses,Repairs & Maintenance,P&L
+ACC_0129,MACHINERY PARTS IGST 18%,May24,May 2024,5,Q1,Q1 FY25,2024,170350.0,0.0,170350.0,170350.0,Debit,Expenses,Repairs & Maintenance,P&L
+ACC_0129,MACHINERY PARTS IGST 18%,Jun24,June 2024,6,Q1,Q1 FY25,2024,169300.0,0.0,169300.0,169300.0,Debit,Expenses,Repairs & Maintenance,P&L
+ACC_0129,MACHINERY PARTS IGST 18%,Jul24,July 2024,7,Q2,Q2 FY25,2024,197640.0,0.0,197640.0,197640.0,Debit,Expenses,Repairs & Maintenance,P&L
+ACC_0129,MACHINERY PARTS IGST 18%,Aug24,August 2024,8,Q2,Q2 FY25,2024,244100.0,0.0,244100.0,244100.0,Debit,Expenses,Repairs & Maintenance,P&L
+ACC_0130,MACHINERY REPAIR & MAINTANCE,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Repairs & Maintenance,P&L
+ACC_0130,MACHINERY REPAIR & MAINTANCE,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Repairs & Maintenance,P&L
+ACC_0130,MACHINERY REPAIR & MAINTANCE,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Repairs & Maintenance,P&L
+ACC_0130,MACHINERY REPAIR & MAINTANCE,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Repairs & Maintenance,P&L
+ACC_0130,MACHINERY REPAIR & MAINTANCE,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Repairs & Maintenance,P&L
+ACC_0131,Medicine,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Employee Expenses,P&L
+ACC_0131,Medicine,May24,May 2024,5,Q1,Q1 FY25,2024,200.0,0.0,200.0,200.0,Debit,Expenses,Employee Expenses,P&L
+ACC_0131,Medicine,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Employee Expenses,P&L
+ACC_0131,Medicine,Jul24,July 2024,7,Q2,Q2 FY25,2024,3465.0,0.0,3465.0,3465.0,Debit,Expenses,Employee Expenses,P&L
+ACC_0131,Medicine,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Employee Expenses,P&L
+ACC_0132,MISC EXPENSES,Apr24,April 2024,4,Q1,Q1 FY25,2024,31645.0,0.0,31645.0,31645.0,Debit,Expenses,Other Expenses,P&L
+ACC_0132,MISC EXPENSES,May24,May 2024,5,Q1,Q1 FY25,2024,10860.0,0.0,10860.0,10860.0,Debit,Expenses,Other Expenses,P&L
+ACC_0132,MISC EXPENSES,Jun24,June 2024,6,Q1,Q1 FY25,2024,22552.0,0.0,22552.0,22552.0,Debit,Expenses,Other Expenses,P&L
+ACC_0132,MISC EXPENSES,Jul24,July 2024,7,Q2,Q2 FY25,2024,11270.0,0.0,11270.0,11270.0,Debit,Expenses,Other Expenses,P&L
+ACC_0132,MISC EXPENSES,Aug24,August 2024,8,Q2,Q2 FY25,2024,23711.0,0.0,23711.0,23711.0,Debit,Expenses,Other Expenses,P&L
+ACC_0133,Office Expenses,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Office Expenses,P&L
+ACC_0133,Office Expenses,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Office Expenses,P&L
+ACC_0133,Office Expenses,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Office Expenses,P&L
+ACC_0133,Office Expenses,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Office Expenses,P&L
+ACC_0133,Office Expenses,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Office Expenses,P&L
+ACC_0134,Office Maitenance,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Office Expenses,P&L
+ACC_0134,Office Maitenance,May24,May 2024,5,Q1,Q1 FY25,2024,5270.0,0.0,5270.0,5270.0,Debit,Expenses,Office Expenses,P&L
+ACC_0134,Office Maitenance,Jun24,June 2024,6,Q1,Q1 FY25,2024,3750.0,0.0,3750.0,3750.0,Debit,Expenses,Office Expenses,P&L
+ACC_0134,Office Maitenance,Jul24,July 2024,7,Q2,Q2 FY25,2024,1170.0,0.0,1170.0,1170.0,Debit,Expenses,Office Expenses,P&L
+ACC_0134,Office Maitenance,Aug24,August 2024,8,Q2,Q2 FY25,2024,1840.0,0.0,1840.0,1840.0,Debit,Expenses,Office Expenses,P&L
+ACC_0135,OFFICE REPAIR & MAINTANCE,Apr24,April 2024,4,Q1,Q1 FY25,2024,4000.0,0.0,4000.0,4000.0,Debit,Expenses,Repairs & Maintenance,P&L
+ACC_0135,OFFICE REPAIR & MAINTANCE,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Repairs & Maintenance,P&L
+ACC_0135,OFFICE REPAIR & MAINTANCE,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Repairs & Maintenance,P&L
+ACC_0135,OFFICE REPAIR & MAINTANCE,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Repairs & Maintenance,P&L
+ACC_0135,OFFICE REPAIR & MAINTANCE,Aug24,August 2024,8,Q2,Q2 FY25,2024,356.25,0.0,356.25,356.25,Debit,Expenses,Repairs & Maintenance,P&L
+ACC_0136,OFFICE REPAIR & MAINTANCE GST 18%,Apr24,April 2024,4,Q1,Q1 FY25,2024,5350.0,0.0,5350.0,5350.0,Debit,Expenses,Repairs & Maintenance,P&L
+ACC_0136,OFFICE REPAIR & MAINTANCE GST 18%,May24,May 2024,5,Q1,Q1 FY25,2024,6242.15,0.0,6242.15,6242.15,Debit,Expenses,Repairs & Maintenance,P&L
+ACC_0136,OFFICE REPAIR & MAINTANCE GST 18%,Jun24,June 2024,6,Q1,Q1 FY25,2024,6172.38,0.0,6172.38,6172.38,Debit,Expenses,Repairs & Maintenance,P&L
+ACC_0136,OFFICE REPAIR & MAINTANCE GST 18%,Jul24,July 2024,7,Q2,Q2 FY25,2024,9970.0,0.0,9970.0,9970.0,Debit,Expenses,Repairs & Maintenance,P&L
+ACC_0136,OFFICE REPAIR & MAINTANCE GST 18%,Aug24,August 2024,8,Q2,Q2 FY25,2024,1250.0,0.0,1250.0,1250.0,Debit,Expenses,Repairs & Maintenance,P&L
+ACC_0137,OFFICE REPAIR & MAINTANCE IGST 18%,Apr24,April 2024,4,Q1,Q1 FY25,2024,3080.0,0.0,3080.0,3080.0,Debit,Expenses,Repairs & Maintenance,P&L
+ACC_0137,OFFICE REPAIR & MAINTANCE IGST 18%,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Repairs & Maintenance,P&L
+ACC_0137,OFFICE REPAIR & MAINTANCE IGST 18%,Jun24,June 2024,6,Q1,Q1 FY25,2024,800.0,0.0,800.0,800.0,Debit,Expenses,Repairs & Maintenance,P&L
+ACC_0137,OFFICE REPAIR & MAINTANCE IGST 18%,Jul24,July 2024,7,Q2,Q2 FY25,2024,3000.0,0.0,3000.0,3000.0,Debit,Expenses,Repairs & Maintenance,P&L
+ACC_0137,OFFICE REPAIR & MAINTANCE IGST 18%,Aug24,August 2024,8,Q2,Q2 FY25,2024,13565.0,0.0,13565.0,13565.0,Debit,Expenses,Repairs & Maintenance,P&L
+ACC_0138,Phone Pay Transaction Charges,Apr24,April 2024,4,Q1,Q1 FY25,2024,40.0,0.0,40.0,40.0,Debit,Expenses,Finance Charges,P&L
+ACC_0138,Phone Pay Transaction Charges,May24,May 2024,5,Q1,Q1 FY25,2024,40.0,0.0,40.0,40.0,Debit,Expenses,Finance Charges,P&L
+ACC_0138,Phone Pay Transaction Charges,Jun24,June 2024,6,Q1,Q1 FY25,2024,121.86,0.0,121.86,121.86,Debit,Expenses,Finance Charges,P&L
+ACC_0138,Phone Pay Transaction Charges,Jul24,July 2024,7,Q2,Q2 FY25,2024,40.0,0.0,40.0,40.0,Debit,Expenses,Finance Charges,P&L
+ACC_0138,Phone Pay Transaction Charges,Aug24,August 2024,8,Q2,Q2 FY25,2024,106.92,0.0,106.92,106.92,Debit,Expenses,Finance Charges,P&L
+ACC_0139,PRINTING & STATIONARY,Apr24,April 2024,4,Q1,Q1 FY25,2024,4200.0,0.0,4200.0,4200.0,Debit,Expenses,Office Expenses,P&L
+ACC_0139,PRINTING & STATIONARY,May24,May 2024,5,Q1,Q1 FY25,2024,9461.32,0.0,9461.32,9461.32,Debit,Expenses,Office Expenses,P&L
+ACC_0139,PRINTING & STATIONARY,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Office Expenses,P&L
+ACC_0139,PRINTING & STATIONARY,Jul24,July 2024,7,Q2,Q2 FY25,2024,6800.0,0.0,6800.0,6800.0,Debit,Expenses,Office Expenses,P&L
+ACC_0139,PRINTING & STATIONARY,Aug24,August 2024,8,Q2,Q2 FY25,2024,9600.0,0.0,9600.0,9600.0,Debit,Expenses,Office Expenses,P&L
+ACC_0140,Professional Charges,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Admin & Professional,P&L
+ACC_0140,Professional Charges,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Admin & Professional,P&L
+ACC_0140,Professional Charges,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Admin & Professional,P&L
+ACC_0140,Professional Charges,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Admin & Professional,P&L
+ACC_0140,Professional Charges,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Admin & Professional,P&L
+ACC_0141,Rent,Apr24,April 2024,4,Q1,Q1 FY25,2024,294692.0,0.0,294692.0,294692.0,Debit,Expenses,Rent,P&L
+ACC_0141,Rent,May24,May 2024,5,Q1,Q1 FY25,2024,294692.0,0.0,294692.0,294692.0,Debit,Expenses,Rent,P&L
+ACC_0141,Rent,Jun24,June 2024,6,Q1,Q1 FY25,2024,321215.25,0.0,321215.25,321215.25,Debit,Expenses,Rent,P&L
+ACC_0141,Rent,Jul24,July 2024,7,Q2,Q2 FY25,2024,321215.25,0.0,321215.25,321215.25,Debit,Expenses,Rent,P&L
+ACC_0141,Rent,Aug24,August 2024,8,Q2,Q2 FY25,2024,321215.25,0.0,321215.25,321215.25,Debit,Expenses,Rent,P&L
+ACC_0142,Roundoff,Apr24,April 2024,4,Q1,Q1 FY25,2024,75.83,0.0,75.83,75.83,Debit,Expenses,Other Expenses,P&L
+ACC_0142,Roundoff,May24,May 2024,5,Q1,Q1 FY25,2024,212.65,0.0,212.65,212.65,Debit,Expenses,Other Expenses,P&L
+ACC_0142,Roundoff,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,70.12,-70.12,70.12,Credit,Expenses,Other Expenses,P&L
+ACC_0142,Roundoff,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,73.06,-73.06,73.06,Credit,Expenses,Other Expenses,P&L
+ACC_0142,Roundoff,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,11.23,-11.23,11.23,Credit,Expenses,Other Expenses,P&L
+ACC_0143,SOFTWARE EXPNESES IGST 18%,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,IT Expenses,P&L
+ACC_0143,SOFTWARE EXPNESES IGST 18%,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,IT Expenses,P&L
+ACC_0143,SOFTWARE EXPNESES IGST 18%,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,IT Expenses,P&L
+ACC_0143,SOFTWARE EXPNESES IGST 18%,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,IT Expenses,P&L
+ACC_0143,SOFTWARE EXPNESES IGST 18%,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,IT Expenses,P&L
+ACC_0144,Staff Insurance,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Insurance,P&L
+ACC_0144,Staff Insurance,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Insurance,P&L
+ACC_0144,Staff Insurance,Jun24,June 2024,6,Q1,Q1 FY25,2024,17770.0,0.0,17770.0,17770.0,Debit,Expenses,Insurance,P&L
+ACC_0144,Staff Insurance,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Insurance,P&L
+ACC_0144,Staff Insurance,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Insurance,P&L
+ACC_0145,Tea Exp,Apr24,April 2024,4,Q1,Q1 FY25,2024,5255.0,0.0,5255.0,5255.0,Debit,Expenses,Office Expenses,P&L
+ACC_0145,Tea Exp,May24,May 2024,5,Q1,Q1 FY25,2024,5230.0,0.0,5230.0,5230.0,Debit,Expenses,Office Expenses,P&L
+ACC_0145,Tea Exp,Jun24,June 2024,6,Q1,Q1 FY25,2024,7675.0,0.0,7675.0,7675.0,Debit,Expenses,Office Expenses,P&L
+ACC_0145,Tea Exp,Jul24,July 2024,7,Q2,Q2 FY25,2024,6065.0,0.0,6065.0,6065.0,Debit,Expenses,Office Expenses,P&L
+ACC_0145,Tea Exp,Aug24,August 2024,8,Q2,Q2 FY25,2024,3785.0,0.0,3785.0,3785.0,Debit,Expenses,Office Expenses,P&L
+ACC_0146,Telephone Expense,Apr24,April 2024,4,Q1,Q1 FY25,2024,2887.28,0.0,2887.28,2887.28,Debit,Expenses,Communication,P&L
+ACC_0146,Telephone Expense,May24,May 2024,5,Q1,Q1 FY25,2024,5741.88,0.0,5741.88,5741.88,Debit,Expenses,Communication,P&L
+ACC_0146,Telephone Expense,Jun24,June 2024,6,Q1,Q1 FY25,2024,1884.46,0.0,1884.46,1884.46,Debit,Expenses,Communication,P&L
+ACC_0146,Telephone Expense,Jul24,July 2024,7,Q2,Q2 FY25,2024,5299.06,0.0,5299.06,5299.06,Debit,Expenses,Communication,P&L
+ACC_0146,Telephone Expense,Aug24,August 2024,8,Q2,Q2 FY25,2024,2506.02,0.0,2506.02,2506.02,Debit,Expenses,Communication,P&L
+ACC_0147,Traveling & Conveyance,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Vehicle & Travel,P&L
+ACC_0147,Traveling & Conveyance,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Vehicle & Travel,P&L
+ACC_0147,Traveling & Conveyance,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Vehicle & Travel,P&L
+ACC_0147,Traveling & Conveyance,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Vehicle & Travel,P&L
+ACC_0147,Traveling & Conveyance,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Vehicle & Travel,P&L
+ACC_0148,Vehicle Insurance,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Insurance,P&L
+ACC_0148,Vehicle Insurance,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Insurance,P&L
+ACC_0148,Vehicle Insurance,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Insurance,P&L
+ACC_0148,Vehicle Insurance,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Insurance,P&L
+ACC_0148,Vehicle Insurance,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Insurance,P&L
+ACC_0149,VEHICLE REPAIR & MAINTANCE,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Vehicle & Travel,P&L
+ACC_0149,VEHICLE REPAIR & MAINTANCE,May24,May 2024,5,Q1,Q1 FY25,2024,14017.8,0.0,14017.8,14017.8,Debit,Expenses,Vehicle & Travel,P&L
+ACC_0149,VEHICLE REPAIR & MAINTANCE,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Vehicle & Travel,P&L
+ACC_0149,VEHICLE REPAIR & MAINTANCE,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Vehicle & Travel,P&L
+ACC_0149,VEHICLE REPAIR & MAINTANCE,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Vehicle & Travel,P&L
+ACC_0150,WATER EXPENSES,Apr24,April 2024,4,Q1,Q1 FY25,2024,1260.0,0.0,1260.0,1260.0,Debit,Expenses,Utilities,P&L
+ACC_0150,WATER EXPENSES,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Utilities,P&L
+ACC_0150,WATER EXPENSES,Jun24,June 2024,6,Q1,Q1 FY25,2024,1320.0,0.0,1320.0,1320.0,Debit,Expenses,Utilities,P&L
+ACC_0150,WATER EXPENSES,Jul24,July 2024,7,Q2,Q2 FY25,2024,1320.0,0.0,1320.0,1320.0,Debit,Expenses,Utilities,P&L
+ACC_0150,WATER EXPENSES,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,1320.0,-1320.0,1320.0,Credit,Expenses,Utilities,P&L
+ACC_0151,WEBSITE EXPENSES,Apr24,April 2024,4,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,IT Expenses,P&L
+ACC_0151,WEBSITE EXPENSES,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,IT Expenses,P&L
+ACC_0151,WEBSITE EXPENSES,Jun24,June 2024,6,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,IT Expenses,P&L
+ACC_0151,WEBSITE EXPENSES,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,IT Expenses,P&L
+ACC_0151,WEBSITE EXPENSES,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,IT Expenses,P&L
+ACC_0152,Write Off Expenses,Apr24,April 2024,4,Q1,Q1 FY25,2024,17360.51,0.0,17360.51,17360.51,Debit,Expenses,Other Expenses,P&L
+ACC_0152,Write Off Expenses,May24,May 2024,5,Q1,Q1 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Other Expenses,P&L
+ACC_0152,Write Off Expenses,Jun24,June 2024,6,Q1,Q1 FY25,2024,5000.0,0.0,5000.0,5000.0,Debit,Expenses,Other Expenses,P&L
+ACC_0152,Write Off Expenses,Jul24,July 2024,7,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Other Expenses,P&L
+ACC_0152,Write Off Expenses,Aug24,August 2024,8,Q2,Q2 FY25,2024,0.0,0.0,0.0,0.0,Zero,Expenses,Other Expenses,P&L

@@ -1,0 +1,31 @@
+Rank,Account,Amount,Side,Category
+1,Current Assets,89126918.55,Debit,Assets
+2,Sundry Debtors,30958286.23,Debit,Assets
+3,ADVANCE TAX,23894750.0,Debit,Assets
+4,Fixed Assets,22514484.5,Debit,Assets
+5,Bank Accounts,22478549.92,Debit,Assets
+6,HDFC BANK,22478549.92,Debit,Assets
+7,MACHINERY IGST 18%,15468491.5,Debit,Assets
+8,Purchase Accounts,15227423.2,Debit,Expenses
+9,PURCHASE IGST 5%,12658843.6,Debit,Expenses
+10,Expenses (Direct) (Direct Expenses),8655359.4,Debit,Expenses
+11,SECURITY DEPOSIT - IOC APPARELS AND HCG GAS,6260380.0,Debit,Assets
+12,Expenses (Indirect) (Indirect Expenses),5574570.57,Debit,Expenses
+13,Current Liabilities,5100600.64,Debit,Liabilities
+14,Duties & Taxes,4679663.98,Debit,Liabilities
+15,Input Receivable,4678236.77,Debit,Liabilities
+1,Capital Account,74901175.06,Credit,Equity
+2,MEHTA CAPITAL ACCOUNT,64924115.06,Credit,Equity
+3,Sales Accounts,33740842.16,Credit,Revenue
+4,Un Exempt Sales A/c,33740842.16,Credit,Revenue
+5,Current Liabilities,27502112.94,Credit,Liabilities
+6,Sundry Creditors,18091146.9,Credit,Liabilities
+7,MY FACTORY (DELHI)`2,9972680.0,Credit,Equity
+8,Provisions,7535746.0,Credit,Liabilities
+9,MANUFACTURING EXPENSES PAYABLE,2598900.0,Credit,Liabilities
+10,PROVISION FOR EXPENSES,2359692.0,Credit,Liabilities
+11,Loans (Liability),2000000.0,Credit,Liabilities
+12,Unsecured Loans,2000000.0,Credit,Liabilities
+13,A.M FOODS,2000000.0,Credit,Liabilities
+14,Current Assets,1990209.38,Credit,Assets
+15,SALARY PAYABLE,1811297.0,Credit,Liabilities

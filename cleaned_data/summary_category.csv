@@ -1,0 +1,6 @@
+Category,TotalDebit,TotalCredit,NetBalance,DominantSide,DebitShare_Pct,CreditShare_Pct
+Assets,250059230.64,1990209.38,248069021.26,Debit,75.7,0.7
+Liabilities,19139592.58,68205476.36,-49065883.78,Credit,5.8,23.7
+Equity,0.0,149802350.12,-149802350.12,Credit,0.0,52.0
+Revenue,2500.0,67830595.32,-67828095.32,Credit,0.0,23.5
+Expenses,61315605.34,264559.82,61051045.52,Debit,18.6,0.1
